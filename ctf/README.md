@@ -8,5 +8,3 @@
 
 ### TryHackMe
 - [Break It](https://umutsaglam.github.io/ctf/tryhackme/Break-It/)
-
-

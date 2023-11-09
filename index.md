@@ -7,6 +7,5 @@
 
 ## Son Eklenenler
 
-#### CTF Writeups
+> CTF Writeups
  <li><a href="https://umutsaglam.github.io/ctf/Break_It/">Break It</a></li>
-    
