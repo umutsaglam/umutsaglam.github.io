@@ -5,6 +5,9 @@
 
 <p>Bu websitesinde Capture The Flag (CTF) writeups, bloglar ve projeler gibi <del>etik</del> hacker olma yolcuğum hakkında yazılar bulacaksınız.</p>
 
+[Başlamadan önce küçük bir hediye:)](https://www.youtube.com/watch?v=SWkMYO9V_-k)
+
+
 ## Son Eklenenler
 
 > CTF Writeups
