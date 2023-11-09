@@ -1,3 +1,3 @@
 <h1 id="welcome-to-my-personal-website">Welcome to My Personal Website!</h1>
 
-<p>In this website, you will find things about my ethical hacking journey, like Capture The Flag (CTF) writeups, blogs and more, as I’m willing to share all my thoughts about cybersecurity!</p>
+<p>Bu websitesinde Capture The Flag (CTF) walkthrough, bloglar ve daha fazlası gibi (etik) hacker olma yolcuğum hakkında yazılar bulacaksınız.</p>
