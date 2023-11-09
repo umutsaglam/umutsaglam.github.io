@@ -13,4 +13,9 @@ Makineyi tarayın, kaç tane port açık?
 ┌──(root@r3tr0)-[/home/kali/Desktop/ctf/RootMe]
 └─# nmap -T5 -p- -v -sV 10.10.155.83     
 ```
-![](https://raw.githubusercontent.com/siunam321/CTF-Writeups/main/TryHackMe/Rootme/images/a1.png)
+
+![](C:\Users\umuts\OneDrive\Belgeler\GitHub\umutsaglam.github.io\ctf\tryhackme\RootMe\images\a1.png)
+
+Göründüğü gibi 22 ve 80 portu açık. Cevap: 2
+
+
