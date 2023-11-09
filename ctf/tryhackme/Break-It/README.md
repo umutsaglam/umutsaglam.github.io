@@ -40,7 +40,7 @@ easy_base32
 └─# echo "TVJYWEtZVE1NVlBXRVlMVE1WWlE9PT09" | base64 -d 
 MRXXKYTMMVPWEYLTMVZQ====
 ```
-Double encoded? Bir başka **base32**. We can pipe (`|`) the `base64` decoded output to `base32`:
+Double encoded? 
 
 ```
 ┌──(root@r3tr0)-[~/ctf/thm/ctf/Break_it]
