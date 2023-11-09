@@ -14,8 +14,9 @@ Makineyi tarayın, kaç tane port açık?
 └─# nmap -T5 -p- -v -sV 10.10.155.83     
 ```
 
-![](C:\Users\umuts\OneDrive\Belgeler\GitHub\umutsaglam.github.io\ctf\tryhackme\RootMe\images\a1.png)
+![](https://github.com/umutsaglam/umutsaglam.github.io/tree/main/ctf/tryhackme/RootMe/images/a1.png)
 
 Göründüğü gibi 22 ve 80 portu açık. Cevap: 2
+
 
 
