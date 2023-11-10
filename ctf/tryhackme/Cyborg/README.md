@@ -98,9 +98,9 @@ music_archive’in hashi elimizde. Bu hashi hashcat ile kırabiliriz.
 
 Hash'i bir txt dosyasına kaydedelim.
 
->echo 'music_archive:$apr1$BpZ.Q.1m$F0qqPwHSOG50URuOVQTTn.' > unshadowed.txt
+>echo 'music_archive:$apr1$BpZ.Q.1m$F0qqPwHSOG50URuOVQTTn.' > hash.txt
 
-john the ripper kullanarak hash'i kırıyoruz.
+hashcat kullanarak hash'i kırıyoruz.
 
 >hashcat -m 1600 -a 0 hash.txt /path/to/file/rockyou.txt
 
@@ -175,6 +175,7 @@ user_flag:flag{1_hop3_y0u_ke3p_th3_arch1v3s_saf3}
 Geriye root bayrağını almak kaldı. Yetki yükseltme işlemi yaparak roota erişmeye çalışalım.
 
 >sudo -l
+
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a9.png?raw=true)
 
 
