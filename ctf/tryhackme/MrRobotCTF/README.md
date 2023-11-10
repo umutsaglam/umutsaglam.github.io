@@ -1,102 +1,154 @@
 ## Giriş
 
-Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/breakit">RootMe</a> makinesinin çözümünü paylaşacağım.
+Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/mrrobot">Mr.Robot</a> makinesinin çözümünü paylaşacağım.
 
-# Bölüm 1 - Reconnaissance
+# Bölüm 1 
 
-1.
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a1.png?raw=true)
+
+Öncelikle makinenin ip adresini öğrenmek için bulunduğumuz ağda tarama yapmamız gerekiyor bunun için aşağıdaki komutu kullanabiliriz.
 ```
-Makineyi tarayın, kaç tane port açık?
-```
-Öncelikle nmap taraması başlatalım.
-```
-┌──(root@r3tr0)-[/home/kali/Desktop/ctf/RootMe]
-└─# nmap -T5 -p- -v -sV 10.10.155.83     
+┌──(root㉿kali)-[~]
+└─# nmap 192.168.1.24 -sT -sV -Pn
 ```
 
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/RootMe/images/a1.png?raw=true)
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a2.png?raw=true)
 
->Göründüğü gibi 22 ve 80 portu açık. Cevap: 2
+80 portunda bir web sitesi çalıştığını görüyoruz. Şimdi yakından inceleyelim.
 
-2.
-```
-Çalışan Apache versiyonu nedir?
-```
->2.4.29
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a3.png?raw=true)
 
-3.
-```
-22 portunda çalışan servis nedir?
-```
-> ssh
+Siteyi incelediğimizde pek bir şey bulamıyoruz. Bu yüzden dirb ile alt dizinleri tarıyoruz.
 
-4.
-```
-Gizli dizin nedir?
-```
-Gobuster çalıştırarak gizli dizini bulalım.
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a4.png?raw=true)
 
-```
-┌──(root㉿r3tr0)-[/home/kali/Desktop/ctf/RootMe]
-└─# gobuster dir --url http://10.10.178.135 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x txt,php,html -t 60
-```
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/RootMe/images/a2.png?raw=true)
+Bizi böyle bir çıktı karşılıyor. Bu çıktıda özellikle login ve robots.txt gözümüze çarpıyor. İlk olarak robots.txt dosyasını inceleyelim.
 
-> /panel/
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a5.png?raw=true)
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a6.png?raw=true)
+
+İlk anahtarımızı bulduk.
+> 073403c8a58a1f80d943455fb30724b9
+
+robots.txt dizinindeki fsocity.dic isimli dosya gözümüze çarpıyor ve indiriyoruz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a7.png?raw=true)
+
+Dosyayı cat komutuyla incelediğimizde bunun bir wordlist olduğunu görüyoruz. Dirb çıktısında gördüğümüz login panelini hatırlayalım bulduğumuz wordlist burada işimize yarayacak.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a8.png?raw=true)
+
+Login sayfasını görüntülediğimizde bir wordpress admin paneli olduğunu görüyoruz. Wordlisti burada kullanmadan önce “wc -l fsocity.dic” komutu ile incelersek çok uzun bir wordlist olduğunu görürüz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a9.png?raw=true)
+
+“sort fsocity.dic” komutu ile sıraladığımızda ise aynı kelimelerin birçok kez tekrar ettiğini görüyoruz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a10.png?raw=true)
+
+Bu yüzden “cat fsocity.dic| sort | uniq | cat > fsocity_yeni.dic” komutuyla fsocity_yeni.dic adında yeni bir dosyaya birden fazla geçen kelimeleri filtreleyerek daha kısa bir wordlist haline getiriyoruz. Artık hydra ile brute force yapabiliriz.
+
+Önce Burp Suite ile giriş yaparken yaptığımız isteği yakalamamız gerekiyor.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a11.png?raw=true)
+
+İsteği gönderdiğimizde, “Invalid username.” hata mesajıyla karşılaşıyoruz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a12.png?raw=true)
+
+Bu bilgilerle aşağıdaki hydra komutunu kullanarak kullanıcı adını bulabiliriz.
+
+>hydra -V -L fsocity_yeni.dic -p test 192.168.1.24 http-post-form ‘/wp-login:log=^USER^&pwd=^PASS^&wp-submit=Log+In:F=Invalid username.’ -F
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a13.png?raw=true)
+
+Kullanıcının elliot olduğunu görüyoruz. Şimdi şifreyi bulmamız gerekiyor. Bunun için kullanıcı adını elliot olarak girip hata mesajını incelememiz gerekiyor.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a14.png?raw=true)
+
+Şifreyi bulmak için aşağıdaki hydra komutunu kullanabiliriz.
+
+>hydra -V -l Elliot -P fsocity_yeni.dic 192.168.1.24 http-post-form ‘/wp-login:log=^USER^&pwd=^PASS^&wp-submit=Log+In:F=incorrect.’ -F
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a15.png?raw=true)
+
+Artık Elliot:ER28–0652 kullanıcı bilgileriyle giriş yapabiliriz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a16.png?raw=true)
+
+Php reverse shell ekleyelim.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a17.png?raw=true)
+
+Update file butonuna basarak sayfayı kaydediyoruz ve artık footer.php sayfasını ziyaret ettiğimizde kod çalışacak ve makineye erişim elde etmiş olacağız. Bunun için sayfayı ziyaret etmeden önce aşağıdaki netcat dinleme komutunu çalıştırmış olmamız gerekiyor.
+
+> nc -nvlp 1234
+
+Artık bağlantı elde ettiğimize göre dizinler arasında gezinmeye başlayabiliriz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a18.png?raw=true)
+
+Home klasörünün içindeki robot klasörüne girdiğimizde 2.anahtarı ve md5 tipinde bir hash içeren iki dosya ile karşılaşıyoruz. Anahtarı okumaya yetkimiz olmadığını görünce bu md5 hashinin robot kullanıcısının şifresi olabileceği aklımıza geliyor.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a19.png?raw=true)
+
+Bu hashi kırmak için [crackstation.net](https://crackstation.net/) sitesini kullanabiliriz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a20.png?raw=true)
+
+Bu kullanıcı bilgileriyle robot kullanıcısına giriş yapabiliriz.
+
+>robot:abcdefghijklmnopqrstuvwxyz
+
+su robot komutu ile robot kullanıcısına geçiş yapmaya çalıştığımızda “must be run from a terminal” hatası alıyoruz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a21.png?raw=true)
+
+Bu yüzden terminal açmak için aşağıdaki python kodunu çalıştırmamız gerekiyor.
+
+> python -c ‘import pty; pty.spawn(“/bin/bash”)’
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a22.png?raw=true)
+
+Artık giriş yapıp 2.anahtarı okuyabiliriz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a23.png?raw=true)
+
+> 822c73956184f694993bede3eb39f959
+
+Şimdi ise son anahtarı almak için root klasörüne girmemiz gerekiyor fakat iznimiz olmadığını görüyoruz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a24.png?raw=true)
+
+Root olabilmek için SUID yetki yükseltmesi kullanmamız gerekiyor. SUID yetki yükseltmesini kısaca açıklamak gerekirse SUID bir dosyayı geçici olarak dosya sahibi gibi çalıştırmamıza olanak sağlar. Hatalı SUID yapılandırmaları sonucunda ise zafiyetler ortaya çıkmaktadır. Hangi dosyalarda SUID değeri bulunduğunu tespit etmek için aşağıdaki komutu kullanırız.
+
+>find / -user root -perm -4000 -print 2>/dev/null
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a25.png?raw=true)
+
+Çıktıya baktığımızda /usr/local/bin/nmap dizinini görebilirsiniz. Bunun nedeni nmap’in birçok işlemi yerine getirebilmek için geçici olarak root yetkisi ile çalışması gerekiyor. Bu zafiyet kullanabilmek için aşağıdaki komutu çalıştırabiliriz.
+
+>nmap --interactive
+> 
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a26.png?raw=true)
+
+Root olduğumuza göre artık son anahtarı okuyabiliriz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/MrRobotCTF/images/a27.png?raw=true)
+
+> 04787ddef27c3dee1ee161b21670b4e4
 
 
-# Bölüm 2 - Getting a Shell
-
-1.
-```
-Bir form yükleyin ve ters shell alın ve bayrağı bulun.
-```
-Önce bulduğumuz gizli dizine gidelim.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/RootMe/images/a3.png?raw=true)
-
-Php reverse shell komut dosyası kullanılarak bağlantı sağlanılabilir. Bunun için pentest monkey’in [php reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) kodunu kullandım. Dosya yüklenmek istendiğinde izin verilmiyor.
-
-Dosya adı uzantısı değiştirilerek file upload bypass işlemi yapılabilir. Bu yüzden php-reverse-shell.php dosyasının adı php-reverse-shell.php5 yapıldığında yükleme işlemi başarı ile gerçekleşiyor.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/RootMe/images/a4.png?raw=true)
-
-Yükleme işlemi yapmadan önce dosyayı açıp kendi ip adresinizi ve dinlemek istediğiniz portu girmelisiniz.
-
-Dosyayı yükledikten sonra netcat çalıştırıyoruz.
-```
-┌──(root㉿r3tr0)-[/home/kali/Desktop/ctf/RootMe]
-└─# nc -nvlp 1234 
-```
-http://10.10.178.135/uploads/ a giderek yüklediğimiz dosyayı çalışıyoruz ve shellimizi alıyoruz.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/RootMe/images/a5.png?raw=true)
-
-python -c ‘import pty;pty.spawn(“/bin/bash”)’ ile bağlantı stabil hale getirelim.
-
-cat /var/www/user.txt ile user flag’ı görüntüleyebiliriz.
-
-> THM{y0u_g0t_a_sh3ll}
-
-# Bölüm 3 - Privilege escalation 
-
-find / -user root -perm /4000 ile root yetkisi edilecek dosyalar araştıralım.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/RootMe/images/a6.png?raw=true)
-
-Burada /usr/bin/python dikkatimi çekti. [GTFOBins](https://gtfobins.github.io/gtfobins/python/) sayfasında python üzerinden yetki yükseltme ile ilgili komut bulunuyor.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/RootMe/images/a7.png?raw=true)
-
-python -c ‘import os; os.execl(“/bin/sh”, “sh”, “-p”)’ komutu ile yetkimizi yükseltelim.
-
-Ardından cat /root/root.txt komutu ile root bayrağına ulaşalım.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/RootMe/images/a8.png?raw=true)
-
-> THM{pr1v1l3g3_3sc4l4t10n}
 
 Ve böylelikle bir ctf daha tamamladık gelecek yazılarımda görüşmek üzere.
+
+
+
+
+
+
+
 
 
 
