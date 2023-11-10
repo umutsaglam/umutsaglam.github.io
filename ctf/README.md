@@ -11,3 +11,4 @@
 - [RootMe](https://umutsaglam.github.io/ctf/tryhackme/RootMe/)
 - [MrRobotCTF](https://umutsaglam.github.io/ctf/tryhackme/MrRobotCTF/)
 - [Crack the Hash](https://umutsaglam.github.io/ctf/tryhackme/Crack_the_hash/)
+- [Pickle_Rick](https://umutsaglam.github.io/ctf/tryhackme/Pickle_Rick/)
