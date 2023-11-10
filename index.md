@@ -16,4 +16,4 @@
 - [MrRobotCTF](https://umutsaglam.github.io/ctf/tryhackme/MrRobotCTF/) 10.11.2023
 - [CrackTheHash](https://umutsaglam.github.io/ctf/tryhackme/Crack_the_hash/) 10.11.2023
 - [PickleRick](https://umutsaglam.github.io/ctf/tryhackme/Pickle_Rick/) 10.11.2023
-- [Cyborg](https://umutsaglam.github.io/ctf/tryhackme/cyborgt8/) 10.11.2023
+- [Cyborg](https://umutsaglam.github.io/ctf/tryhackme/Cyborg/) 10.11.2023

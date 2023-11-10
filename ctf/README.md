@@ -12,4 +12,4 @@
 - [MrRobotCTF](https://umutsaglam.github.io/ctf/tryhackme/MrRobotCTF/)
 - [CrackTheHash](https://umutsaglam.github.io/ctf/tryhackme/Crack_the_hash/)
 - [PickleRick](https://umutsaglam.github.io/ctf/tryhackme/Pickle_Rick/)
-- [Cyborg](https://umutsaglam.github.io/ctf/tryhackme/cyborgt8/)
+- [Cyborg](https://umutsaglam.github.io/ctf/tryhackme/Cyborg/)
