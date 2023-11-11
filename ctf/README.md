@@ -13,3 +13,4 @@
 - [CrackTheHash](https://umutsaglam.github.io/ctf/tryhackme/Crack_the_hash/)
 - [PickleRick](https://umutsaglam.github.io/ctf/tryhackme/Pickle_Rick/)
 - [Cyborg](https://umutsaglam.github.io/ctf/tryhackme/Cyborg/)
+- [CyberCrafted](https://umutsaglam.github.io/ctf/tryhackme/CyberCrafted/)
