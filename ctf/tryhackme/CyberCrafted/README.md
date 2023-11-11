@@ -4,7 +4,7 @@ Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/
 
 Geliştirme aşamasındaki bir Minecraft sunucusunun IP adresini buldun. Rootlayabilir misin?
 
-Başlayalım.
+Muhtemelen şimdiye kadar yazdığım en uzun writeup olacak. Başlayalım!
 
 ## Görev 1 
 
