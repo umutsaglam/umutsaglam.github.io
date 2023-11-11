@@ -12,7 +12,7 @@
 
 > CTF Writeups
 
-- [CyberCrafted](https://umutsaglam.github.io/ctf/tryhackme/CyberCrafted/) 11.11.23
+- [CyberCrafted](https://umutsaglam.github.io/ctf/tryhackme/CyberCrafted/) 11.11.2023
 - [MrRobotCTF](https://umutsaglam.github.io/ctf/tryhackme/MrRobotCTF/) 10.11.2023
 - [RootMe](https://umutsaglam.github.io/ctf/tryhackme/RootMe/) 10.11.2023
 - [PickleRick](https://umutsaglam.github.io/ctf/tryhackme/Pickle_Rick/) 10.11.2023
