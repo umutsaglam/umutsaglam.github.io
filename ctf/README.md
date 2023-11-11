@@ -14,3 +14,4 @@
 - [PickleRick](https://umutsaglam.github.io/ctf/tryhackme/Pickle_Rick/)
 - [Cyborg](https://umutsaglam.github.io/ctf/tryhackme/Cyborg/)
 - [CyberCrafted](https://umutsaglam.github.io/ctf/tryhackme/CyberCrafted/)
+- [OhSINT](https://umutsaglam.github.io/ctf/tryhackme/OhSINT/)
