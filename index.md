@@ -3,7 +3,7 @@
 </section>
 
 
-<p>Bu websitesinde Capture The Flag (CTF) writeups, bloglar ve projeler gibi <del>etik</del> hacker olma yolcuğum hakkında yazılar bulacaksınız.</p>
+<p>Bu websitesinde Capture The Flag (CTF) writeups, bug bounty programları, malware analysis ve projeler gibi <del>etik</del> hacker olma yolcuğum hakkında yazılar bulacaksınız.</p>
 
 [Başlamadan önce küçük bir hediye:)](https://www.youtube.com/watch?v=SWkMYO9V_-k)
 
