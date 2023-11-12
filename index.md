@@ -5,7 +5,9 @@
 
 <p>Bu websitesinde Capture The Flag (CTF) writeups, bug bounty programları ve projeler gibi Siber Güvenlik ile ilgili makaleler bulacaksınız.</p>
 
-[Başlamadan önce küçük bir hediye:)](https://www.youtube.com/watch?v=SWkMYO9V_-k)
+
+<img src="/Gif/hack.gif" style="width:650px;height:150px;">
+
 
 * * *
 ```
@@ -29,4 +31,3 @@ Site Açılış Tarihi: 09.11.2023
 - [CrackTheHash](https://umutsaglam.github.io/ctf/tryhackme/Crack_the_hash/) 10.11.2023
 - [BreakIt](https://umutsaglam.github.io/ctf/tryhackme/Break-It/) 09.11.2023
 
-<img src="/Gif/hack.gif" style="width:400px;height:100px;">
