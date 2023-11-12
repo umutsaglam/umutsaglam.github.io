@@ -7,7 +7,7 @@
 
 * * *
 
-<img src="/Gif/hack.gif" style="width:650px;height:150px;">
+<img src="/Gif/hack.gif" style="width:1000px;height:200px;">
 
 
 * * *
