@@ -12,5 +12,4 @@ Bu bölümde Python ile yazdığım projeleri ve CTF çözerken kullandığım c
 ## CheatSheet
 
 - [CTF Cheet Sheet](https://github.com/umutsaglam/CTF-CheatSheet)
-
 - [Bug Bounty Cheat Sheet](https://github.com/umutsaglam/CTF-CheatSheet)
