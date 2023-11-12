@@ -5,6 +5,7 @@
 
 <p>Bu websitesinde Capture The Flag (CTF) writeups, bug bounty programları ve projeler gibi Siber Güvenlik ile ilgili makaleler bulacaksınız.</p>
 
+* * *
 
 <img src="/Gif/hack.gif" style="width:650px;height:150px;">
 
