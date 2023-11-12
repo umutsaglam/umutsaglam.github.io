@@ -233,7 +233,11 @@ Anurodh kullanıcısının password hash'ini bulduk.[CrackStation](https://crack
 
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/ChillHack/images/a9.png?raw=true)
 
-Bu bilgilerle bir yere varamadım geri dönüp başka dosyalara göz atmaya karar verdim.
+Bu bilgilerle bir yere varamadım.
+
+
+<img src="/Gif/homelander2.gif" style="width:500px;height:250px;">
+
 
 /var/www/files içinde hacker.php dosyası dikkatimi çekti. cat ile açtığımda ipucu buldum.
 
