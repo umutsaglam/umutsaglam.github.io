@@ -11,11 +11,6 @@
 
 
 * * *
-```
-Site Açılış Tarihi: 09.11.2023
-```
-
-* * *
 
 ## Son Eklenenler
 
@@ -32,3 +27,6 @@ Site Açılış Tarihi: 09.11.2023
 - [CrackTheHash](https://umutsaglam.github.io/ctf/tryhackme/Crack_the_hash/) 10.11.2023
 - [BreakIt](https://umutsaglam.github.io/ctf/tryhackme/Break-It/) 09.11.2023
 
+```
+Site Açılış Tarihi: 09.11.2023
+```
