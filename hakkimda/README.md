@@ -13,6 +13,3 @@ Merhaba, ismim Umut Sağlam Muğla Sıtkı Koçman Üniversitesi Yönetim Biliş
 - [GitHub](https://github.com/umutsaglam)
 - [TryHackMe](https://tryhackme.com/p/Retr0000)
 - [Konsol](https://umutsaglam.vercel.app/)
-
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7noTgmdMkTTv0WdO7zmCI8?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
