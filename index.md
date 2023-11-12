@@ -17,6 +17,7 @@
 > CTF Writeups
 
 - [Anonymous](https://umutsaglam.github.io/ctf/tryhackme/Anonymous) 12.11.2023
+- [LazyAdmin](https://umutsaglam.github.io/ctf/tryhackme/LazyAdmin) 12.11.2023
 - [ChillHack](https://umutsaglam.github.io/ctf/tryhackme/ChillHack/) 11.11.2023
 - [OhSINT](https://umutsaglam.github.io/ctf/tryhackme/OhSINT/) 11.11.2023
 - [CyberCrafted](https://umutsaglam.github.io/ctf/tryhackme/CyberCrafted/) 11.11.2023
