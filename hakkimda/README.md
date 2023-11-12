@@ -3,6 +3,7 @@ Merhaba, ismim Umut Sağlam Muğla Sıtkı Koçman Üniversitesi Yönetim Biliş
 
 # Sertifikalar
 
+<img src="/Gif/homelander.gif" style="width:500px;height:250px;">
 
 # İletişim
 
