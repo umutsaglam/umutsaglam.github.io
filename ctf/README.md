@@ -1,9 +1,18 @@
+# CTF Nedir?
+CTF(Capture the flag), ‘’bayrağı yakala’’ adıyla bilinen siber güvenlik alanında düzenlenen uygulamalı öğretici yarışmalardır.Yarışmaların asıl amacı, hack konusunda öğrenilen bilgiye sahip olan insanların bu bilgileri pratiğe dökerek kendilerini test etmelerini sağlamaktır.
+
+CTF yarışmalarına katılanlar, korsanlardan, güvenlik uzmanlarından, bilgi güvenliği araştırma gruplarından, öğrencilerden, bireyden kolektif olarak geniş bir yelpazeye yayılıyor. CTF yarışması, materyal açısından büyük olmayabilir, ancak büyük bir takdir olan önemli bir “ölçüm” olabilir.
+
+CTF yarışmalarına katılmanın bilgi güvenliği ve güvenlik alanında çalışmaya ve araştırmaya başlamak için “yararlı” olabileceği söylenebilir. Yarışmalar genelde gruplar halinde yapılır.
+
+Çeşitli online labaratuarlarda çözdüğüm CTF'leri bu bölümde paylaşacağım.
+
 # Writeups
 * * *
 
 ## İçerik
 
-### Wargames/Academy Labs:
+### Academy Labs:
 1. **[TryHackMe](#tryhackme)**
 2. **[HackTheBox](#hackthebox)**
 3. **[VulnHub](#vulnhub)**
