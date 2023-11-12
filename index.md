@@ -29,4 +29,4 @@ Site Açılış Tarihi: 09.11.2023
 - [CrackTheHash](https://umutsaglam.github.io/ctf/tryhackme/Crack_the_hash/) 10.11.2023
 - [BreakIt](https://umutsaglam.github.io/ctf/tryhackme/Break-It/) 09.11.2023
 
-<img src="/Gif/homalander.gif">
+<img src="/Gif/homelander.gif" style="width:445px;height:350px;">
