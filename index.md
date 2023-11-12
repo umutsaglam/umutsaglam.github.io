@@ -7,7 +7,7 @@
 
 * * *
 
-<img src="/Gif/fsociety.gif" style="width:1000px;height:250px;">
+<img src="/Gif/fsoc.gif" style="width:1000px;height:250px;">
 
 
 * * *
