@@ -817,3 +817,5 @@ THM{8bb1eda065ceefb5795a245568350a70}
 
 
 Ve böylelikle bir ctf daha tamamladık gelecek yazılarımda görüşmek üzere.
+
+<img src="/Gif/fsoc.gif" style="width:500px;height:250px;">

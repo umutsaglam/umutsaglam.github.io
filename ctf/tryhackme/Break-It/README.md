@@ -405,3 +405,5 @@ Neler Öğrendik:
 1. Base Encoding & Decoding
 2. Cipher
 3. Bit Shift
+
+<img src="/Gif/fsoc.gif" style="width:500px;height:250px;">

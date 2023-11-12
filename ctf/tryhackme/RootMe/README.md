@@ -99,6 +99,7 @@ Ardından cat /root/root.txt komutu ile root bayrağına ulaşalım.
 Ve böylelikle bir ctf daha tamamladık gelecek yazılarımda görüşmek üzere.
 
 
+<img src="/Gif/fsoc.gif" style="width:500px;height:250px;">
 
 
 
