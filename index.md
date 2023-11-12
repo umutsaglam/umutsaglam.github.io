@@ -7,10 +7,12 @@
 
 [Başlamadan önce küçük bir hediye:)](https://www.youtube.com/watch?v=SWkMYO9V_-k)
 
+* * *
 ```
 Site Açılış Tarihi: 09.11.2023
 ```
 
+* * *
 ## Son Eklenenler
 
 > CTF Writeups
