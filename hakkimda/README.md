@@ -1,10 +1,6 @@
 # Hakkımda
 Merhaba, ismim Umut Sağlam Muğla Sıtkı Koçman Üniversitesi Yönetim Bilişim Sistemleri 4. sınıf öğrencisiyim. 22 yaşındayım Siber Güvenlik alanında 1 senedir çalışmalar yapıyorum.   
 
-# Konsol
-
-[Konsol](https://umutsaglam.vercel.app/)
-
 # Sertifikalar
 
 
@@ -15,3 +11,4 @@ Merhaba, ismim Umut Sağlam Muğla Sıtkı Koçman Üniversitesi Yönetim Biliş
 - [GitHub](https://github.com/umutsaglam)
 - [TryHackMe](https://tryhackme.com/p/Retr0000)
 - Discord: r3tr0.dll
+- [Konsol](https://umutsaglam.vercel.app/)
