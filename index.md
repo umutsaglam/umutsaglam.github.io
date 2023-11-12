@@ -13,9 +13,8 @@ Site Açılış Tarihi: 09.11.2023
 ```
 
 * * *
-<header>
+
 <h4> Son Eklenenler </h4>
-</header>
 
 > CTF Writeups
 
