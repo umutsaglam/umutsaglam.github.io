@@ -9,7 +9,11 @@ Dünyanın dört bir yanındaki hackerlar, hata/açıkları yakalar ve bazı dur
 
 Bu bölümde sizinle bulduğum bugları(açıkları) ilgili şirketlerin izni olduğu müddetçe paylaşacağım.
 
-### HackerOne
 * * *
+
+### HackerOne
+
+* * *
+
 ### Bug Crowd
 
