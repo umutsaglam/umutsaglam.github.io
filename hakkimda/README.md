@@ -7,8 +7,8 @@ Merhaba, ismim Umut Sağlam Muğla Sıtkı Koçman Üniversitesi Yönetim Biliş
 # İletişim
 
 - Email: [umutsaglam6@hotmail.com](mailto:umutsaglam6@hotmail.com)
+- Discord: r3tr0.dll
 - [LinkedIn](https://www.linkedin.com/in/umut-saglam/)
 - [GitHub](https://github.com/umutsaglam)
 - [TryHackMe](https://tryhackme.com/p/Retr0000)
-- Discord: r3tr0.dll
 - [Konsol](https://umutsaglam.vercel.app/)
