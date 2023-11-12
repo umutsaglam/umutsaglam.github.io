@@ -42,9 +42,13 @@ Nmap done: 1 IP address (1 host up) scanned in 9.16 seconds
            Raw packets sent: 1108 (48.728KB) | Rcvd: 1105 (44.208KB)
 ```
 22 ssh ve 80 http servisi açık. Websitesine göz atalım.
+
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/LazyAdmin/images/a1.png?raw=true)
+
 Sıradan bir ubuntu default sayfası.
+
 Gobuster çalıştırarak gizli dizinleri arayalım.
+
 ```
 ┌──(root㉿r3tr0)-[~]
 └─# gobuster dir -u http://10.10.120.127 -w  /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x txt,php,html
@@ -114,6 +118,7 @@ Finished
 ===============================================================
 ```
 İncelenecek çok daha fazla dizin bulduk. Her dizini tek tek gezdim ve sadece 2 tanesini ilginç buldum.
+
 Bunlardan ilki giriş formu olan ‘/as’:
 
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/LazyAdmin/images/a2.png?raw=true)
@@ -121,7 +126,9 @@ Bunlardan ilki giriş formu olan ‘/as’:
 Şimdilik giriş bilgilerine sahip değiliz. Diğer dizine geçelim.
 
 '/inc':
+
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/LazyAdmin/images/a3.png?raw=true)
+
 Çok fazla dosya var. Biraz inceleme yaptığımda kayda değer bir bilgi buluyorum.
 
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/LazyAdmin/images/a4.png?raw=true)
