@@ -34,7 +34,7 @@ Ve sayfaya yapıştırıyorum.
 
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Corridor/images/a6.png?raw=true)
 
-<img src="/Gif/paterick-bateman.gif" style="width:500px;height:250px;">
+<img src="/Gif/patrick-bateman.gif" style="width:500px;height:250px;">
 
 Düşündüğüm gibi çıkmadı 15 i deniyorum ve aynı sonucu alıyorum. Biraz düşündükten sonra 0 numarasını denemeye karar veriyorum.
 
