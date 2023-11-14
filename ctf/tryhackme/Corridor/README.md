@@ -26,6 +26,9 @@ Kırıp ne olduğunu öğreniyorum.
 
 Odalardaki hashler 1 den 13 e kadar sıralı bir şekilde ilerliyor.
 
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Corridor/images/a8.png?raw=true)
+
+
 Oda açıklamasında bir IDOR açığı olduğu belirtilmiş. İlk önce MD5 Hash Generator'dan 14 numarası için bir hash yapıyorum.
 
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/Corridor/images/a5.png?raw=true)
