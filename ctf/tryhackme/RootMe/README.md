@@ -1,6 +1,6 @@
 ## Giriş
 
-Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/breakit">RootMe</a> makinesinin çözümünü paylaşacağım.
+Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/rootme">RootMe</a> makinesinin çözümünü paylaşacağım.
 
 # Bölüm 1 - Reconnaissance
 
