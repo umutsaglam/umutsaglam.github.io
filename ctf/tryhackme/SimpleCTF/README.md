@@ -178,9 +178,9 @@ sudo vim -c ':!/bin/sh' komutunu kullanarak yetki yükseltebiliriz.
 
 Root bayrağı nedir?
 
--W3ll d0n3. You made it!
+- W3ll d0n3. You made it!
 
-Ve böylece bir ctf daha tamamladık. Gelecek yazılarımda görüşmek üzere.
+Ve böylelikle bir ctf daha tamamladık gelecek yazılarımda görüşmek üzere.
 
 <img src="/Gif/fsoc.gif" style="width:500px;height:250px;">
 
