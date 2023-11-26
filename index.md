@@ -36,3 +36,5 @@
 ```
 Site Açılış Tarihi: 09.11.2023
 ```
+
+[Makale](https://umutsaglam.github.io/ctf/tryhackme/Makale/)
