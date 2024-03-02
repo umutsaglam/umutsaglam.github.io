@@ -239,7 +239,7 @@ user:hash ' union select 1,2,3,group_concat(user,0x3a,hash) from admin-- -
 
 
 
-Verilen hash'i [crackstation](crackstation.net) sitesinde kıralım.
+Verilen hash'i crackstation sitesinde kıralım.
 
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/TryHackMe/CyberCrafted/images/a9.png?raw=true)
 
