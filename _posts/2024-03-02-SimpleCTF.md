@@ -6,11 +6,7 @@ tags: [Easy,Security]
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/f28ade2b51eb7aeeac91002d41f29c47.png
 ---
 
-## Giriş
-
-Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/easyctf">Simple CTF</a> makinesinin çözümünü paylaşacağım.
-
-Başlayalım.
+<a href="https://tryhackme.com/room/easyctf">Simple CTF</a>
 
 * * *
 

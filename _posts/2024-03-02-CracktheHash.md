@@ -6,13 +6,7 @@ tags: [Easy,Hash,Cracking]
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/fafc074a97207f99929f2ee28bea87ac.jpeg
 ---
 
-## Giriş
-
-Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/crackthehash">Crack the hash</a> çözümünü paylaşacağım.
-
-Bu CTF'i çözerken hashcat ve [Crackstation](https://crackstation.net/) sitesini kullanacağım.
-
-Başlayalım!
+ <a href="https://tryhackme.com/room/crackthehash">Crack the hash</a>
 
 # Level 1
 

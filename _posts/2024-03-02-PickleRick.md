@@ -6,12 +6,9 @@ tags: [Easy,Dirbuster,Linux]
 image: https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_FMjpg_UX1000_.jpg
 ---
 
-
-## Giriş
-Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/picklerick">Pickle Rick</a> makinesinin çözümünü paylaşacağım.
-
-
 Bu Rick ve Morty temalı mücadele, bir web sunucusundan yararlanmanızı ve Rick'in iksirini yapmasına ve kendisini turşudan insana dönüştürmesine yardımcı olacak üç malzeme bulmanızı gerektirir.
+
+<a href="https://tryhackme.com/room/picklerick">Pickle Rick</a>
 
 ## Görev 1 Pickle Rick
 1.

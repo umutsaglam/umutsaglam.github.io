@@ -6,9 +6,9 @@ tags: [Easy,Security]
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/efbb70493ba66dfbac4302c02ad8facf.jpeg
 ---
 
-## Giriş
-Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/lazyadmin">Lazy Admin</a> makinesinin çözümünü paylaşacağım.
-Başlayalım.
+ <a href="https://tryhackme.com/room/lazyadmin">Lazy Admin</a>
+
+
 * * *
 Öncelikle nmap taraması başlatalım.
 ```

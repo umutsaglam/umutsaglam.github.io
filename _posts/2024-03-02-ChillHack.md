@@ -6,11 +6,7 @@ tags: [Easy,SQLi,Command İnjection]
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/897a124df0a70ad86502193b83f46658.png
 ---
 
-## Giriş
-
-Hoşgeldiniz! Bu yazımda Tryhackme’de bulunan <a href="https://tryhackme.com/room/chillhack">Chill Hack</a> makinesinin çözümünü paylaşacağım.
-
-Başlayalım.
+<a href="https://tryhackme.com/room/chillhack">Chill Hack</a>
 
 ---
 
