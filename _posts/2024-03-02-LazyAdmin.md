@@ -3,6 +3,7 @@ title: Lazy Admin
 date: 2024-03-02 12:23:12 
 categories: [TryHackMe]
 tags: [Easy,Security]
+image: https://tryhackme-images.s3.amazonaws.com/room-icons/efbb70493ba66dfbac4302c02ad8facf.jpeg
 ---
 
 ## Giriş

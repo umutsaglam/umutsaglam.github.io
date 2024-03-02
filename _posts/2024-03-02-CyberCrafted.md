@@ -3,7 +3,7 @@ title: Cyber Crafted
 date: 2024-03-02 12:23:12 
 categories: [TryHackMe]
 tags: [Medium,İnjection,Linux]
-images: https://tryhackme-images.s3.amazonaws.com/room-icons/dd06737472c79a806e2049ddeb3af354.png
+image: https://tryhackme-images.s3.amazonaws.com/room-icons/dd06737472c79a806e2049ddeb3af354.png
 ---
 
 ## Giriş
