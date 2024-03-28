@@ -2,7 +2,7 @@
 title: CheatSheet
 date: 2024-03-01 12:43:32 
 categories: [CheatSheet]
-tags: [zartzort] 
+tags: [kendimenotlar] 
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/04afd126bf7a729eec5ff41e5b9b1212.png
 ---
 
