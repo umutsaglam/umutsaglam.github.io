@@ -15,7 +15,8 @@ SSH servisi ile ilgili temel alıştırmalar yapmak için önerilir.
 
 Hangi portlar açık?
 
-fotoğraf
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/SecureCommand/images/1.png?raw=true)
+
 
 - 22
 
@@ -25,7 +26,8 @@ fotoğraf
 
 SSH'a hackviser:hackviser oturum bilgileri ile bağlanırken "Master's Message" nedir?
 
-fotoğraf 
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/SecureCommand/images/2.png?raw=true)
+ 
 
 - W3lc0m3 t0 h4ck1ng w0rld
 
@@ -48,6 +50,7 @@ Master’in tavsiyesi nedir?
 
 root dizininde ls -la ile .advice_of_the_master dosyasını buldum. 
 
-fotoğraf
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/SecureCommand/images/3.png?raw=true)
+
 
 - st4y cur10us
