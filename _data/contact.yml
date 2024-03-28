@@ -22,6 +22,6 @@
 #
 
 #
-- type: stack-overflow
-  icon: 'fab fa-stack-overflow'
-  url:  'https://stackoverflow.com/users/17617421/r3tr0'                  # Fill with your stackoverflow homepage
+# - type: stack-overflow
+#  icon: 'fab fa-stack-overflow'
+#  url:  'https://stackoverflow.com/users/17617421/r3tr0'                  # Fill with your stackoverflow homepage
