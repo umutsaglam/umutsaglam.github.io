@@ -1,6 +1,6 @@
 ---
 title: File Hunter
-date: 2024-03-28 12:13:12 
+date: 2024-03-27 12:13:12 
 categories: [Hackviser]
 tags: [FTP, Warmups]  
 image: https://storage.hackviser.com/file/hackviser-prod/scenarios/dcbe1ab63023486fb3937b9a6bb18153.webp
