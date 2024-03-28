@@ -1,5 +1,5 @@
 ---
-title: Secure Command
+title: Query Gate
 date: 2024-03-27 12:23:12 
 categories: [Hackviser]
 tags: [MySQL, Warmups]  
