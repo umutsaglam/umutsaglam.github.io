@@ -3,7 +3,7 @@ title: Chill Hack
 date: 2024-03-02 12:43:32 
 categories: [TryHackMe]
 tags: [Easy,SQLi,Command İnjection]  
-image: https://tryhackme-images.s3.amazonaws.com/room-icons/897a124df0a70ad86502193b83f46658.png
+image: https://nepcodex.com/wp-content/uploads/2021/07/chill-hack-e1627133005491.png
 ---
 
 <a href="https://tryhackme.com/room/chillhack">Chill Hack</a>
