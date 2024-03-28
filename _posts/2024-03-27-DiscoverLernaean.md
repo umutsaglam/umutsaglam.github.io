@@ -70,7 +70,8 @@ Finished
 
 File manager'a giriş yapmak için kullandığınız username:password nedir?
 
-fotoğraf 
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/Discover/images/1.png?raw=true)
+ 
 
 
 file manager dizininde bizi bu sayfa karşılıyor. Tiny File Manager kullanıldığını gördüm ve github reposunda default username:password u buldum.
@@ -79,11 +80,13 @@ fotoğraf
 
 - user:12345
 
-fotoğraf 
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/Discover/images/2.png?raw=true)
+ 
 
 Bilgisayara eklenen son kullanıcı adı nedir?
 
-fotoğraf
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/Discover/images/3.png?raw=true)
+
 
 - rock 
 
@@ -92,7 +95,8 @@ rock kullanıcısının parolası nedir?
 
 Port taramasında SSH servisi çalıştığını görmüştüm. Bulduğum rock kullanıcısıyla SSH servisine brute force deneyebilirim.
 
-fotoğraf 
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/Discover/images/4.png?raw=true)
+ 
 
 - 7777777
 
@@ -100,7 +104,8 @@ rock kullanıcısı tarafından çalıştırılan ilk komut nedir?
 
 Bunu öğrenmek için ssh ile makineye girmemiz ve rock kullanıcısının dizininde bulunan .bash_history dosyasını okumamız gerekiyor.
 
-fotoğraf
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/Discover/images/4.png?raw=true)
+
 
 - cd 
 
