@@ -1,6 +1,6 @@
 ---
 title: Simple CTF
-date: 2024-03-02 12:23:12 
+date: 2024-03-27 12:00:12 
 categories: [TryHackMe]
 tags: [Easy,Security]  
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/f28ade2b51eb7aeeac91002d41f29c47.png
