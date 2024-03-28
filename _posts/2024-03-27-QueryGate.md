@@ -15,7 +15,17 @@ MySQL’in temellerini uygulamak ve veritabanı temellerini öğrenmek için ön
 
 Hangi portlar açık?
 
-fotoğraf 
+````
+┌──(root㉿kali)-[~]
+└─# nmap 172.20.4.161
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-28 06:13 EDT
+Nmap scan report for 172.20.4.161 (172.20.4.161)
+Host is up (0.073s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+3306/tcp open  mysql
+```` 
+
 
 - 3306
 
