@@ -1,6 +1,6 @@
 ---
 title: Discover Lernaean
-date: 2024-03-28 12:23:12 
+date: 2024-03-27 12:23:12 
 categories: [Hackviser]
 tags: [Brute Force, Warmups]  
 image: /images/discover.webp
