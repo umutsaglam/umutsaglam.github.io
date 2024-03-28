@@ -15,7 +15,8 @@ FTP servisi ile ilgili temel alıştırmalar yapmak için önerilir.
 
 Hangi portlar açık?
 
-fotoğraf
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/FileHunter/images/1.png?raw=true)
+
 
 - ftp 
 
@@ -27,7 +28,7 @@ FTP'ye hangi kullanıcı adı ile bağlandınız?
 
 anonymous ile giriş yapmayı deniyorum.
 
-fotoğraf
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/FileHunter/images/2.png?raw=true)
 
 - anonymous
 
@@ -53,6 +54,7 @@ Bir FTP sunucusundan dosya indirmek için kullanabileceğimiz komut nedir?
 
 Dosyada hangi kullanıcıların bilgileri vardır?
 
-fotoğraf
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/FileHunter/images/3.png?raw=true)
+
 
 - jack 
