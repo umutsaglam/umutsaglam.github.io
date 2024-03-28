@@ -3,7 +3,7 @@ title: Query Gate
 date: 2024-03-27 12:23:12 
 categories: [Hackviser]
 tags: [MySQL, Warmups]  
-image: https://storage.hackviser.com/file/hackviser-prod/scenarios/72d0e8a5360b499dab2b19bb2c103309.webp
+image: /images/querygate.webp
 ---
 
 MySQL, verileri yönetmek ve işlemek için Structured Query Language (SQL) kullanan bir ilişkisel veritabanı yönetim sistemidir (RDBMS). MySQL, web uygulamalarının veritabanları için yaygın olarak kullanılan açık kaynaklı bir sistemdir.

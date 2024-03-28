@@ -3,7 +3,7 @@ title: Discover Lernaean
 date: 2024-03-27 12:23:12 
 categories: [Hackviser]
 tags: [Brute Force, Warmups]  
-image: https://storage.hackviser.com/file/hackviser-prod/scenarios/a36b2da29b3f419cb31d65a75ff97acd.webp
+image: /images/discover.webp
 ---
 
 Bu ısınma makinesi, Apache ve SSH servisleri üzerinde dizin taraması, brute-force saldırıları ve yaygın uygulama güvenlik açıklarının nasıl zincirleme kullanılabileceğini öğretmeye odaklanır.

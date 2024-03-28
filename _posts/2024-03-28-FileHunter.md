@@ -3,7 +3,7 @@ title: File Hunter
 date: 2024-03-27 12:13:12 
 categories: [Hackviser]
 tags: [FTP, Warmups]  
-image: https://storage.hackviser.com/file/hackviser-prod/scenarios/dcbe1ab63023486fb3937b9a6bb18153.webp
+image: /images/filehunter.webp
 ---
 
 FTP (File Transfer Protocol), dosya aktarımlarını internet üzerinden yapmak için kullanılan bir protokoldür. Bu protokol, bir bilgisayarın dosyalarını diğer bir bilgisayara yüklemek veya indirmek için kullanılır.
