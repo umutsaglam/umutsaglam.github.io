@@ -104,7 +104,7 @@ rock kullanıcısı tarafından çalıştırılan ilk komut nedir?
 
 Bunu öğrenmek için ssh ile makineye girmemiz ve rock kullanıcısının dizininde bulunan .bash_history dosyasını okumamız gerekiyor.
 
-![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/Discover/images/4.png?raw=true)
+![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/Discover/images/5.png?raw=true)
 
 
 - cd 
