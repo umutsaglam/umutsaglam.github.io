@@ -10,5 +10,3 @@ Hacker olmaya çalışan bir script kiddie :)
 
 
 <script src="https://tryhackme.com/badge/2271198"></script>
-
-
