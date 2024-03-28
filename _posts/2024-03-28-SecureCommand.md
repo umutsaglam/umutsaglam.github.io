@@ -14,3 +14,40 @@ SSH servisi ile ilgili temel alıştırmalar yapmak için önerilir.
 
 
 Hangi portlar açık?
+
+fotoğraf
+
+- 22
+
+Çalışan hizmetin adı nedir?
+
+- ssh
+
+SSH'a hackviser:hackviser oturum bilgileri ile bağlanırken "Master's Message" nedir?
+
+fotoğraf 
+
+- W3lc0m3 t0 h4ck1ng w0rld
+
+
+Linux'ta kullanıcı değiştirmek için kullanılan komut nedir?
+
+- su 
+
+Root kullanıcısının parolası nedir?
+
+İpucunda çok basit düşünmemiz istenmiş :)
+
+- root 
+
+ls komutunun gizli dosyaları gösteren parametresi nedir?
+
+- -a 
+
+Master’in tavsiyesi nedir?
+
+root dizininde ls -la ile .advice_of_the_master dosyasını buldum. 
+
+fotoğraf
+
+- st4y cur10us

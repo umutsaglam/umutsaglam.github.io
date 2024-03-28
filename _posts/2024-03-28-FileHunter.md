@@ -18,7 +18,7 @@ Hangi portlar açık?
 ![](https://github.com/umutsaglam/CTF-Writeups/blob/main/Hackviser/FileHunter/images/1.png?raw=true)
 
 
-- ftp 
+- 21 
 
 FTP'nin açılımı nedir?
 
