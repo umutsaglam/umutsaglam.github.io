@@ -19,6 +19,7 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/04afd126bf7a729eec5f
 - cat /etc/passwd | cat /etc/shadow | cat /etc/group
 - cat ~/.bash_history
 - cat ~/.ssh/authorized_keys
-- python -c 'import pty;pty.spawn("/bin/bash")'
+- python -c 'import pty;pty.spawn("/bin/bash")' | CTRL+Z | echo TERM$ | syyt -a | stty raw -echo | fg |
+
 -----------------------------------------------
 ````
