@@ -3,7 +3,7 @@ title: Crack the Hash
 date: 2024-03-02 12:23:12 
 categories: [TryHackMe]
 tags: [Easy,Hash,Cracking]
-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcworld.com%2Farticle%2F394029%2Fhow-to-create-strong-secure-passwords.html&psig=AOvVaw0Gg9-RRzFGWZdniCOiHbPr&ust=1711709791449000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCID64IPmloUDFQAAAAAdAAAAABAJ
+image: https://inventyourshit.com/wp-content/uploads/2023/03/Hip-Hop5.png
 ---
 
  <a href="https://tryhackme.com/room/crackthehash">Crack the hash</a>
