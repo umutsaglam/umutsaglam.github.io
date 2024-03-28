@@ -41,8 +41,8 @@ social:
     - https://twitter.com/umutsagl4m # change to your twitter homepage
     - https://github.com/umutsaglam # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # https://www.linkedin.com/in/umut-saglam
+    - https://www.facebook.com/username
+    - https://app.hackthebox.com/profile/1646681
 
 google_site_verification: # fill in to your verification string
 
