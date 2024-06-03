@@ -41,6 +41,7 @@ image: https://i.kym-cdn.com/entries/icons/original/000/021/807/ig9OoyenpxqdCQyA
 - [Stresser.su](https://stresser.su/)
 - [Jwt.io](https://jwt.io/)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
+- [DynamiteLab](https://lab.dynamite.ai/)
 ---
 
 ## Reverse Shell
