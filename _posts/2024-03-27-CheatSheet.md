@@ -72,6 +72,8 @@ image: https://i.kym-cdn.com/entries/icons/original/000/021/807/ig9OoyenpxqdCQyA
 - [Spyhackerz](https://spyhackerz.net/)
 - [Ramp4u](https://ramp4u.io/)
 - [HackForums](https://hackforums.net/index.php)
+- [CrimeNetwork](https://crime.to/)
+- [BlackForums](https://blackforums.net/)
 ---
 
 
