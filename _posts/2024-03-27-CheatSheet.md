@@ -1,5 +1,5 @@
 ---
-title: CheatSheet
+title: Not
 date: 2024-03-02 17:59:32 
 categories: [CheatSheet]
 tags: [kendimenotlar] 
