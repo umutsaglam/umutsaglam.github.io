@@ -39,7 +39,9 @@ image: https://i.kym-cdn.com/entries/icons/original/000/021/807/ig9OoyenpxqdCQyA
 - [Hashes](https://hashes.com/en/decrypt/hash)
 - [HaveIBeenPwned?](https://haveibeenpwned.com/)
 - [Stresser.su](https://stresser.su/)
+- [Jwt.io](https://jwt.io/)
 
+---
 
 ## Reverse Shell
 
