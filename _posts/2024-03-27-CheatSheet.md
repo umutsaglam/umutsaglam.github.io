@@ -20,6 +20,8 @@ image: https://i.kym-cdn.com/entries/icons/original/000/021/807/ig9OoyenpxqdCQyA
 - [PicoCTF](https://picoctf.org/)
 - [RootMe](https://www.root-me.org/)
 - [OverTheWire](https://overthewire.org/wargames/)
+- [CyberExam](https://cyberexam.io/)
+- [Hackviser](https://app.hackviser.com/)
 
 ### Bug Bounty
 
