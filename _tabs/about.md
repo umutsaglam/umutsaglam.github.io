@@ -22,6 +22,8 @@ order: 4
 ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/UC-aa4d7780-8279-441b-844c-d4825b4db5a0.jpg?raw=true)
 ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/UC-ee335d92-41cd-46bf-acbc-0b6240aed35b.jpg?raw=true)
 ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.jpg?raw=true)
+![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.jpg?raw=true)
+![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.jpg?raw=true)
 
 
 
