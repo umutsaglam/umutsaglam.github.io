@@ -5,7 +5,7 @@ order: 4
 ---
 
 
-## Sertifika
+## Sertifikalarım
 
 
 ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/cybrary-cert-ethical-hacking_page-0001.jpg?raw=true)
