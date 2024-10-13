@@ -29,16 +29,6 @@ order: 4
 
 
 
-
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q1.png)
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q2.png)
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q3.png)
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q4.png)
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q5.png)
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q6.png)
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q7.png)
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q8.png)
-
 ---
 
 
