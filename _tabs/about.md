@@ -3,10 +3,18 @@
 icon: fas fa-info-circle
 order: 4
 ---
+zz
 
-
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2271198" style='border:none;'></iframe>
-
+<script>
+    (function() {
+        var iframe = document.createElement('iframe');
+        iframe.src = "https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2271198";
+        iframe.style.border = "none";
+        iframe.style.width = "100%";
+        iframe.style.height = "400px";
+        document.body.appendChild(iframe);
+    })();
+</script>
 
 
 ### certificate
