@@ -5,10 +5,46 @@ order: 4
 ---
 
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/solidsec.png" alt="Your Image Badge" />
+<div id="badges" class="badges-container"></div>
 
+<script>
+    fetch('https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2271198')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Ağ yanıtı düzgün değil');
+            }
+            return response.json();
+        })
+        .then(data => {
+            const badgesDiv = document.getElementById('badges');
+            if (data.badges && data.badges.length > 0) {
+                data.badges.forEach(badge => {
+                    const badgeElement = document.createElement('div');
+                    badgeElement.classList.add('badge-item'); // Temaya uygun sınıf ekleme
+                    badgeElement.textContent = badge.name; // İstediğiniz bilgiyi ekleyin
+                    badgesDiv.appendChild(badgeElement);
+                });
+            } else {
+                badgesDiv.textContent = 'Hiçbir rozet bulunamadı.';
+            }
+        })
+        .catch(error => console.error('Hata:', error));
+</script>
 
-<script src="https://app.hackthebox.com/profile/1646681"></script>
+<style>
+    .badges-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Rozetler arasındaki boşluk */
+    }
+
+    .badge-item {
+        padding: 10px;
+        border: 1px solid #ccc; /* Rozet sınırı */
+        border-radius: 5px; /* Kenar yuvarlama */
+        background-color: #f9f9f9; /* Arka plan rengi */
+    }
+</style>
 
 z
 ### certificate
