@@ -15,6 +15,8 @@ order: 4
 | ![Badge 7](https://assets.tryhackme.com/room-badges/24df75a720abb7ed7609dc622b2ab52e.png) | ![Badge 8](https://assets.tryhackme.com/room-badges/abe06b460c270817279cff41be79d16c.png) | ![Badge 9](https://assets.tryhackme.com/room-badges/a6bb243b0f4f8f797f254cb34783d451.png) |
 | ![Badge 10](https://assets.tryhackme.com/room-badges/6adb171eafdaad4516db095099dbe33e.png) | ![Badge 11](https://assets.tryhackme.com/room-badges/d5a4f019864860da7d03bdb7edfdf893.png) | ![Badge 12](https://assets.tryhackme.com/room-badges/e3670d1efbbba8fd708d89790615ffd3.png) |
 | ![Badge 10](https://assets.tryhackme.com/room-badges/0d0e9283d432f0b3ba666240105c1761.png) | ![Badge 11](https://assets.tryhackme.com/room-badges/14c56aec21eea2c02b3a18cce9f22e31.png) | ![Badge 12](https://assets.tryhackme.com/room-badges/223f3c310f496717d8fe078bdc54a5d3.png) |
+| ![Badge 10](https://assets.tryhackme.com/room-badges/4b61f7890c295d78679b0c4264d1a4b9.png) | ![Badge 11](https://assets.tryhackme.com/room-badges/0702c69628a91d8ae7e211a09c8e94bb.png) | ![Badge 12](https://assets.tryhackme.com/room-badges/19634c0a3fc24c5507d78714782f9a36.png) |
+| ![Badge 10](https://assets.tryhackme.com/room-badges/a6bb243b0f4f8f797f254cb34783d451.png) | ![Badge 11](https://assets.tryhackme.com/room-badges/ac7f4cdf783b0912f03fffb5d6427e41.png) | ![Badge 12](https://assets.tryhackme.com/room-badges/3bcee6dbefdcff6dbdef34bde1497e23.png) |
 
 
 ---
