@@ -64,10 +64,6 @@ asd
 
 
 
-
-<div data-iframe-width="250" data-iframe-height="270" data-share-badge-id="07723116-0774-45a5-833a-89298b1f17a8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<div data-iframe-width="250" data-iframe-height="270" data-share-badge-id="075694cc-0f6f-49f5-ae2a-6fc4c9fb21b9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<div data-iframe-width="250" data-iframe-height="270" data-share-badge-id="1edf44a2-47a2-49aa-885f-4d968676dd30" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 ---
 
 
