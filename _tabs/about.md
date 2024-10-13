@@ -50,7 +50,7 @@ ss
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Cyber_Threat_Management_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Ethical_Hacker_Badge.webp?raw=true) |
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/cybrary-cert-ethical-hacking_page-0001.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/THM-KM78V0PLNA.webp?raw=true) |
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/THM-VVLGVZGNXK.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/THM-ACWNTUM8VV.jgp?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/THM-VVLGVZGNXK.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/THM-ACWNTUM8VV.webp?raw=true) |
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika2.webp?raw=true) |
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.webp?raw=true) |
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/UC-68a3028f-05f0-4f2e-a3ec-3984222bcb2b.webp?raw=true) |
