@@ -26,7 +26,13 @@ order: 4
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q5.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q6.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q7.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q8.png?raw=true) |
 
 
-asd
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_1.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_2.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_3.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_4.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_5.png?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_6.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_7.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_8.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_9.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_10.png?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_11.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_12.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_13.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_14.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_15.png?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_16.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_17.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_18.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_19.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_20.png?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_21.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_22.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_23.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_24.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_25.png?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_26.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_27.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_28.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_29.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_30.png?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_31.png?raw=true) |  |  |  |  |
 
 ---
 
@@ -38,6 +44,7 @@ asd
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.jpg?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/UC-68a3028f-05f0-4f2e-a3ec-3984222bcb2b.jpg?raw=true) |
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/UC-966ab29d-013b-4afb-bbe5-72c9cd1d31fa.jpg?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/UC-8418e744-fd53-48c4-b088-ff7408cf42ef.jpg?raw=true) |
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/UC-aa4d7780-8279-441b-844c-d4825b4db5a0.jpg?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/UC-ee335d92-41cd-46bf-acbc-0b6240aed35b.jpg?raw=true) |
+
 
 
 
