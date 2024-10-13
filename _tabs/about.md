@@ -5,7 +5,8 @@ order: 4
 ---
 
 
-<script src="https://tryhackme.com/badge/2271198"></script>
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2271198" style='border:none;'></iframe>
+
 
 
 ### certificate
