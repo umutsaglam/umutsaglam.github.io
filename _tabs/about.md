@@ -4,12 +4,11 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+
+![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/thm.png?raw=true)
+
 <img src="https://tryhackme-badges.s3.amazonaws.com/solidsec.png" alt="Your Image Badge" />
 
-
----
-
-thm
 
 | ![Badge 1](https://assets.tryhackme.com/room-badges/38885e6e4a7ffb23ab9fe5bd2f47f744.png) | ![Badge 2](https://assets.tryhackme.com/room-badges/25dddd71a8d2182d75b2388e0d56fc19.png) | ![Badge 3](https://assets.tryhackme.com/room-badges/4dba45f730428983873a0e37676b34a6.png) |
 | ![Badge 4](https://assets.tryhackme.com/room-badges/970a4f7e4bccb67d7f20afe7fecf55d3.png) | ![Badge 5](https://assets.tryhackme.com/room-badges/673e7218f98e4b30568743d6538d9ebd.png) | ![Badge 6](https://assets.tryhackme.com/room-badges/fce1abb9775486d4f1d0af1dc785bba0.png) |
