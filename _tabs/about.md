@@ -30,10 +30,8 @@ order: 4
 
 ---
 
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/hackviser.webp?raw=true)
 
-
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/hackviserr.png" alt="Cyrar" width="500" height="200" />
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/hackviser2.png" alt="hackviser" width="500" height="200" />
 
 
 ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/qa.webp?raw=true)
