@@ -74,7 +74,7 @@ order: 4
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Cyber_Threat_Management_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Ethical_Hacker_Badge.webp?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Cyber_Threat_Management_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Ethical_Hacker_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/ic1.jpg?raw=true) |
 
 
 
