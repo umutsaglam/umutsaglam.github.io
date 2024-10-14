@@ -100,7 +100,8 @@ order: 4
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/turkcell.jpg?raw=true) |
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/turkcell3.png" alt="Turkcell" width="400" height="100" />
+
 
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.webp?raw=true) |
