@@ -90,7 +90,7 @@ order: 4
 
 
 
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/siberkulupler.png" alt="Siber Kulupler" width="400" height="100" />
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/siber3.webp" alt="Siber Kulupler" width="300" height="100" />
 
 
 ---
