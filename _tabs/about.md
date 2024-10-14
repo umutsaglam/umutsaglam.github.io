@@ -58,8 +58,8 @@ order: 4
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/cyrar.png?raw=true) |
 
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cyrar.png" alt="Cyrar" width="500" height="200" />
 
 ---
 
@@ -69,7 +69,7 @@ order: 4
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/cisco.png?raw=true) |
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cisco.png" alt="Cisco" width="500" height="200" />
 
 
 ---
@@ -83,8 +83,12 @@ order: 4
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/siberkulupler.png?raw=true) |
 
+
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/siberkulupler.png" alt="Siber Kulupler" width="400" height="100" />
+
+
+---
 
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika2.webp?raw=true) |
@@ -99,7 +103,7 @@ order: 4
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/ctiacademy.png?raw=true) |
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/sertifika/ctiacademy.png" alt="CTI Academy" width="400" height="200" />
 
 
 asdasdasd
@@ -107,10 +111,3 @@ asdasdasd
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/academyclub.png?raw=true) |
-
-
-
-asdasdasd
-
----
