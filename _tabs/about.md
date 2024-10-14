@@ -97,3 +97,6 @@ order: 4
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.webp?raw=true) |
 
 
+---
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ctiacademy.png?raw=true) |
