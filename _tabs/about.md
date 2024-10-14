@@ -81,8 +81,19 @@ order: 4
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ctm.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/eh.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ic.png?raw=true) |
 
 
+---
 
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/siberkulupler.png?raw=true) |
+
+
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika2.webp?raw=true) |
 
 ---
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/turkcell.jpg?raw=true) |
+
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.webp?raw=true) |
 
 
