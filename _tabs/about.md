@@ -78,7 +78,7 @@ order: 4
 
 
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ctm.png?raw=true) |  ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/eh.png?raw=true) | | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ic.png?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ctm.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/eh.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ic.png?raw=true) |
 
 
 
