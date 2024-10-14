@@ -100,3 +100,11 @@ order: 4
 ---
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ctiacademy.png?raw=true) |
+
+
+
+
+
+---
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/academyclub.png?raw=true) |
