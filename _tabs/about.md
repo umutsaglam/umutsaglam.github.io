@@ -74,7 +74,7 @@ order: 4
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Cyber_Threat_Management_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Ethical_Hacker_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/ic1.jpg?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Cyber_Threat_Management_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Ethical_Hacker_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ic1.jpg?raw=true) |
 
 
 
@@ -91,7 +91,7 @@ order: 4
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/turkcell.jpg?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/turkcell.jpg?raw=true) |
 
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.webp?raw=true) |
@@ -99,12 +99,18 @@ order: 4
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ctiacademy.png?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/ctiacademy.png?raw=true) |
 
 
-
+asdasdasd
 
 
 ---
 
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/academyclub.png?raw=true) |
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/academyclub.png?raw=true) |
+
+
+
+asdasdasd
+
+---
