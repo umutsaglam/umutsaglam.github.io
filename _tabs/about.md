@@ -109,11 +109,6 @@ order: 4
 
 ---
 
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/sertifika/ctiacademy.png" alt="CTI Academy" width="400" height="200" />
 
-
-asdasdasd
-
-
----
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cat.png" alt="Turkcell" width="400" height="100" />
 
