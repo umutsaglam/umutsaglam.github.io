@@ -5,6 +5,26 @@ order: 4
 ---
 
 
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; height: 20vh;">
+    <a href="https://github.com/umutsaglam" target="_blank" style="text-decoration: none; outline: none; border: none;">
+        <i class="fab fa-github" style="font-size: 40px; color: black;"></i>
+    </a>
+    <a href="https://twitter.com/umutsagl4m" target="_blank" style="text-decoration: none; outline: none; border: none;">
+        <i class="fab fa-x-twitter" style="font-size: 40px; color: black;"></i>
+    </a>
+    <a href="https://linkedin.com/in/umut-saglam" target="_blank" style="text-decoration: none; outline: none; border: none;">
+        <i class="fab fa-linkedin" style="font-size: 40px; color: black;"></i>
+    </a>
+    <a href="https://www.youtube.com/watch?v=ZHgyQGoeaB0" target="_blank" style="text-decoration: none; outline: none; border: none;">
+        <i class="fa-solid fa-phone" style="font-size: 40px; color: black;"></i>
+    </a>
+</div>
+
+
+
+---
+
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/thm2.webp" alt="hackviser" width="400" height="200" />
 
 
