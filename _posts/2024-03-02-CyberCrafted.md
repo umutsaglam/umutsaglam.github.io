@@ -6,11 +6,13 @@ tags: [Medium,İnjection,Linux]
 image: images/crafted.png
 ---
 
+You have found an IP address of an in-development Minecraft server. Can you root it?
+
+---
 <a href="https://tryhackme.com/room/cybercrafted">CyberCrafted</a>
 
-Geliştirme aşamasındaki bir Minecraft sunucusunun IP adresini buldun. Rootlayabilir misin?
+---
 
-Başlayalım.
 
 
 Kaç tane port açık?
