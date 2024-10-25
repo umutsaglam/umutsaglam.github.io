@@ -6,10 +6,13 @@ tags: [Easy,Dirbuster,Linux]
 image: images/rick.webp
 ---
 
-Bu Rick ve Morty temalı mücadele, bir web sunucusundan yararlanmanızı ve Rick'in iksirini yapmasına ve kendisini turşudan insana dönüştürmesine yardımcı olacak üç malzeme bulmanızı gerektirir.
+This Rick and Morty-themed challenge requires you to exploit a web server and find three ingredients to help Rick make his potion and transform himself back into a human from a pickle.
+
+---
 
 <a href="https://tryhackme.com/room/picklerick">Pickle Rick</a>
 
+---
 
 
 
