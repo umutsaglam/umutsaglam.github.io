@@ -25,7 +25,7 @@ order: 4
 
 ---
 
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/thm2.webp" alt="hackviser" width="400" height="200" />
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/thm2.webp" alt="thm" width="400" height="200" />
 
 
 ---
@@ -73,7 +73,7 @@ order: 4
 
 ---
 
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cyberexam.png" alt="hackviser" width="500" height="200" />
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cyberexam.png" alt="cyberexam" width="500" height="200" />
 
 
 
@@ -94,7 +94,7 @@ order: 4
 
 ---
 
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/htb31.png" alt="hackviser" width="500" height="200" />
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/htb31.png" alt="htb" width="500" height="200" />
 
 
 
@@ -103,6 +103,8 @@ order: 4
 
 
 ---
+
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/letsdefend.webp" alt="letsdefend" width="500" height="200" />
 
 
 
