@@ -59,9 +59,9 @@ order: 4
 
 ---
 
-
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/hackviser2.png" alt="hackviser" width="500" height="200" />
 
+---
 
 ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/qa.webp?raw=true)
 
@@ -92,7 +92,7 @@ order: 4
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cyberexam.png" alt="cyberexam" width="500" height="200" />
 
-
+---
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/cyberexam/1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/cyberexam/2.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/cyberexam/3.webp?raw=true) |
 
@@ -122,7 +122,7 @@ order: 4
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/htb31.png" alt="htb" width="500" height="200" />
 
-
+---
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_46.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_47.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_48.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_49.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/Screenshot_50.webp?raw=true) |
 
@@ -133,7 +133,7 @@ order: 4
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/letsdefend.webp" alt="letsdefend" width="500" height="200" />
 
-
+---
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/2.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/3.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/4.webp?raw=true) |
 
@@ -172,10 +172,7 @@ order: 4
 
 ---
 
-
-
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/siber3.webp" alt="Siber Kulupler" width="300" height="100" />
-
 
 ---
 
@@ -186,13 +183,11 @@ order: 4
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/turkcell3.png" alt="Turkcell" width="400" height="100" />
 
-
+---
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.webp?raw=true) |
 
-
 ---
-
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cat.png" alt="Turkcell" width="400" height="100" />
 
