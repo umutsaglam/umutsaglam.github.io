@@ -25,6 +25,51 @@ order: 4
 
 ---
 
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cisco.png" alt="Cisco" width="500" height="200" />
+
+
+---
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Cyber_Threat_Management_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Ethical_Hacker_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ic1.jpg?raw=true) |
+
+
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ctm.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/eh.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ic.png?raw=true) |
+
+
+---
+
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cyrar.png" alt="Cyrar" width="500" height="200" />
+
+---
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/cybrary-cert-ethical-hacking_page-0001.webp?raw=true) |
+
+
+
+---
+
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/siber3.webp" alt="Siber Kulupler" width="300" height="100" />
+
+---
+
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika2.webp?raw=true) |
+
+---
+
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/turkcell3.png" alt="Turkcell" width="400" height="100" />
+
+---
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.webp?raw=true) |
+
+
+
+
+
+---
+
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/thm2.webp" alt="thm" width="400" height="200" />
 
 
@@ -148,46 +193,7 @@ order: 4
 
 ---
 
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cyrar.png" alt="Cyrar" width="500" height="200" />
 
----
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/cybrary-cert-ethical-hacking_page-0001.webp?raw=true) |
-
-
-
----
-
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cisco.png" alt="Cisco" width="500" height="200" />
-
-
----
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Cyber_Threat_Management_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Ethical_Hacker_Badge.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ic1.jpg?raw=true) |
-
-
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ctm.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/eh.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ic.png?raw=true) |
-
-
----
-
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/siber3.webp" alt="Siber Kulupler" width="300" height="100" />
-
----
-
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika2.webp?raw=true) |
-
----
-
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/turkcell3.png" alt="Turkcell" width="400" height="100" />
-
----
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.webp?raw=true) |
-
----
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cat.png" alt="Turkcell" width="400" height="100" />
 
