@@ -123,6 +123,10 @@ order: 4
 
 ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/hackviser2.webp?raw=true)
 
+![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/yeni.png?raw=true)
+
+
+
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q2.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q3.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q4.webp?raw=true) |
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q5.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q6.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q7.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q8.webp?raw=true) |
