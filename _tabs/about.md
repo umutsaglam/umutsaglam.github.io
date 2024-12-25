@@ -73,6 +73,23 @@ order: 4
 
 ---
 
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/hackviser2.png" alt="hackviser" width="500" height="200" />
+
+---
+
+
+![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/yeni.png?raw=true)
+
+
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q2.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q3.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q4.webp?raw=true) |
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q5.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q6.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q7.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q8.webp?raw=true) |
+
+
+---
+
+
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/letsdefend.webp" alt="letsdefend" width="500" height="200" />
 
 ---
@@ -82,6 +99,7 @@ order: 4
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/5.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/6.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/7.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/8.webp?raw=true) |
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/9.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/10.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/11.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/12.webp?raw=true) |
+
 
 
 ---
@@ -110,23 +128,6 @@ order: 4
 
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/2.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/3.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/4.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/5.webp?raw=true) |
-
-
-
----
-
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/hackviser2.png" alt="hackviser" width="500" height="200" />
-
----
-
-
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/yeni.png?raw=true)
-
-
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q2.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q3.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q4.webp?raw=true) |
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q5.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q6.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q7.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q8.webp?raw=true) |
 
 
 
