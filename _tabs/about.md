@@ -21,12 +21,9 @@ order: 4
     </a>
 </div>
 
-
-
 ---
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cisco.png" alt="Cisco" width="500" height="200" />
-
 
 ---
 
@@ -35,16 +32,6 @@ order: 4
 
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ctm.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/eh.png?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/ic.png?raw=true) |
-
-
----
-
-<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cyrar.png" alt="Cyrar" width="500" height="200" />
-
----
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/cybrary-cert-ethical-hacking_page-0001.webp?raw=true) |
-
 
 ---
 
@@ -77,18 +64,9 @@ order: 4
 
 ---
 
-
 ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/yeni.png?raw=true)
 
-
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q2.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q3.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q4.webp?raw=true) |
-
-| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q5.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q6.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q7.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/q8.webp?raw=true) |
-
-
 ---
-
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/letsdefend.webp" alt="letsdefend" width="500" height="200" />
 
@@ -100,13 +78,19 @@ order: 4
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/9.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/10.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/11.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/letsdefend/12.webp?raw=true) |
 
+---
 
+<img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cyrar.png" alt="Cyrar" width="500" height="200" />
 
 ---
+
+| ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/cybrary-cert-ethical-hacking_page-0001.webp?raw=true) |
+
+---
+
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/siber3.webp" alt="Siber Kulupler" width="300" height="100" />
 
 ---
-
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/thumbnail_skb_sertifika2.webp?raw=true) |
 
@@ -118,21 +102,15 @@ order: 4
 
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Pentesting101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/Python101.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/sertifika/SQL.webp?raw=true) |
 
-
-
 ---
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/udemy2.webp" alt="udemy" width="300" height="100" />
 
 ---
 
-
 | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/1.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/2.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/3.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/4.webp?raw=true) | ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/udemy/5.webp?raw=true) |
 
-
-
 ---
-
 
 <img src="https://github.com/umutsaglam/umutsaglam.github.io/raw/main/images/cat.png" alt="Turkcell" width="400" height="100" />
 
