@@ -121,7 +121,6 @@ order: 4
 
 ---
 
-![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/hackviser2.webp?raw=true)
 
 ![](https://github.com/umutsaglam/umutsaglam.github.io/blob/main/images/yeni.png?raw=true)
 
