@@ -54,8 +54,6 @@ order: 4
 
 <img src="https://tryhackme-badges.s3.amazonaws.com/solidsec.png" alt="Your Image Badge" />
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2271198" style='border:none;'></iframe>
-
 
 ---
 
